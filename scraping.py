@@ -53,7 +53,9 @@ class StartupScraper:
                 try:
                     stage_elements = self.driver.find_elements(
                         By.CLASS_NAME, st)
-                    stages.extend([elem.text for elem in stage_elements])
+                    # remove medium because it is not a stage
+                    stages.extend(
+                        [elem.text for elem in stage_elements if elem.text != "Medium"])
                 except Exception as e:
                     print(f"Error in stages: {e}")
 
