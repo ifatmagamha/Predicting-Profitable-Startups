@@ -4,7 +4,7 @@ from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-
+import csv
 
 class StartupScraper:
     def __init__(self, driver_path, url):
@@ -98,11 +98,24 @@ class StartupScraper:
         if self.driver:
             self.driver.quit()
 
+    def save_to_csv(data, filename="scraped_data.csv"):
+        with open(filename, mode='w', newline='', encoding='utf-8') as file:
+            writer = csv.writer(file)
+            # Header
+            writer.writerow(["Company", "Stage", "Dealflow"])
+            # Data
+            for company, stage, dealflow in zip(data['companies'], data['stages'], data['dealflows']):
+                writer.writerow([company, stage, dealflow])
+
+
 
 # Using the StartupScraper class
 if __name__ == "__main__":
-    DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe"
-    URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
+
+    #DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe
+    #URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
+    DRIVER_PATH = r"C:\Users\Fatma\Downloads\edgedriver_win64\msedgedriver.exe"
+    URL = "https://venture.angellist.com/v/gamha-islem-fatma/i/gamha-islem-fatma/syndicates/all"
 
     # Instance of StartupScraper
     scraper = StartupScraper(DRIVER_PATH, URL)
