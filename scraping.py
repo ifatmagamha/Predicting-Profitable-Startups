@@ -4,6 +4,7 @@ from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import csv
 
 
 class StartupScraper:
@@ -93,6 +94,20 @@ class StartupScraper:
             print("An error occurred during scraping:", e)
             return None
 
+    def save_to_csv(self, data, filename="startup_data.csv"):
+        """Save the scraped data to a CSV file."""
+        try:
+            with open(filename, mode='w', newline='', encoding='utf-8') as file:
+                writer = csv.writer(file)
+                writer.writerow(["Company", "Stage", "Dealflow"])  # CSV header
+
+                # Assuming stages and dealflows lists have the same length as company names
+                for company, stage, dealflow in zip(data["companies"], data["stages"], data["dealflows"]):
+                    writer.writerow([company, stage, dealflow])
+            print(f"Data saved to {filename}")
+        except Exception as e:
+            print(f"Error saving data to CSV: {e}")
+
     def close_driver(self):
         """Close the WebDriver."""
         if self.driver:
@@ -119,7 +134,8 @@ if __name__ == "__main__":
             print("COMPANIES: ", scraped_data["companies"])
             print("STAGES: ", scraped_data["stages"])
             print("DEALFLOWS: ", scraped_data["dealflows"])
-
+            # Save the data to CSV
+            scraper.save_to_csv(scraped_data)
     finally:
         # Close the driver
         scraper.close_driver()
