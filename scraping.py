@@ -98,7 +98,9 @@ class StartupScraper:
 # Using the StartupScraper class
 if __name__ == "__main__":
     URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
+    #DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe"
     DRIVER_PATH = r"C:\Users\Fatma\Downloads\edgedriver_win64\msedgedriver.exe"
+
 
     # Instance of StartupScraper
     scraper = StartupScraper(DRIVER_PATH, URL)
