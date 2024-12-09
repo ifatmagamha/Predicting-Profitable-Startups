@@ -5,6 +5,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import csv
+import json
+
 
 class StartupScraper:
     def __init__(self, driver_path, url):
@@ -19,16 +21,24 @@ class StartupScraper:
         self.driver.get(self.url)
 
     def wait_for_login(self):
-        """Wait for me to log in :( so cute."""
+        """Wait for manual login and confirm the correct page."""
         print("Please complete the login process manually.")
         input("Press Enter after you have successfully logged in...")
+
+        # Verify if the user is on the correct page
+        current_url = self.driver.current_url
+        print(f"Current URL after login: {current_url}")
+        if "syndicates/all" not in current_url:
+            print("Redirecting to the target URL...")
+            self.driver.get(self.url)
+            time.sleep(5)
 
     def scrape_data(self):
         """Scrape the required data."""
         try:
-            # i used webdriver to automate web browsers and interact with dynamic web pages
-            # Wait for the table container to load :(
-            WebDriverWait(self.driver, 20).until(
+            # Wait for the table container to load
+            print("Waiting for the table to load...")
+            WebDriverWait(self.driver, 30).until(
                 EC.presence_of_all_elements_located(
                     (By.CLASS_NAME, "styles_tableContainer__957m_")
                 )
@@ -41,46 +51,22 @@ class StartupScraper:
             print(f"Found {len(company_names)} companies.")
 
             # Handle dynamic parent classes for stages and dealflows
-            ss = ["styles_gray__bdOHv"]
-            dynamic_classes = [
-                "styles_orange__OGK6l", "styles_gray__bdOHv",
-                "styles_green__GmSPW", "styles_blue__HN_uy"
-            ]  # dealflows has a lot of classes depend on their advancement in the process
-
             stages, dealflows = [], []
-            for st in ss:
-                # Scrape stages using class name in ss
-                try:
-                    stage_elements = self.driver.find_elements(
-                        By.CLASS_NAME, st)
-                    # remove medium because it is not a stage
-                    stages.extend(
-                        [elem.text for elem in stage_elements if elem.text != "Medium"])
-                except Exception as e:
-                    print(f"Error in stages: {e}")
+            valid_dealflows = ['High', 'Low', 'Medium', 'New']
 
-            for dynamic_class in dynamic_classes:
-                # Scrape dealflows using class name
-                try:
-                    # Find all elements with the class name that likely contains dealflow information
-                    dealflow_elements = self.driver.find_elements(
-                        By.CLASS_NAME, "styles_text__stjMD")
+            # Scrape stages
+            stage_elements = self.driver.find_elements(
+                By.CLASS_NAME, "styles_gray__bdOHv")
+            stages.extend([elem.text for elem in stage_elements if elem.text != "Medium"])
 
-                    # Define the valid dealflow types
-                    # to extract only the dealflows from the list because it give the stages too
-                    valid_dealflows = ['High', 'Low', 'Medium', 'New']
+            # Scrape dealflows
+            dealflow_elements = self.driver.find_elements(
+                By.CLASS_NAME, "styles_text__stjMD")
+            dealflows.extend(
+                [elem.text for elem in dealflow_elements if elem.text in valid_dealflows]
+            )
 
-                    # Filter and collect only the dealflows that match the valid ones
-                    dealflows.extend(
-                        [elem.text for elem in dealflow_elements if elem.text in valid_dealflows]
-                    )
-
-                except Exception as e:
-                    print(
-                        f"Error scraping dealflows for class {dynamic_class}: {e}")
-
-            print(
-                f"Found {len(stages)} stages and {len(dealflows)} dealflows.")
+            print(f"Found {len(stages)} stages and {len(dealflows)} dealflows.")
 
             # Return the collected data
             return {
@@ -89,7 +75,7 @@ class StartupScraper:
                 "dealflows": dealflows,
             }
 
-        except Exception as e:  # lets hope we dont reach this point
+        except Exception as e:
             print("An error occurred during scraping:", e)
             return None
 
@@ -98,7 +84,8 @@ class StartupScraper:
         if self.driver:
             self.driver.quit()
 
-    def save_to_csv(data, filename="scraped_data.csv"):
+    def save_to_csv(self, data, filename="scraped_data.csv"):
+        """Save the scraped data to a CSV file."""
         with open(filename, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             # Header
@@ -108,14 +95,10 @@ class StartupScraper:
                 writer.writerow([company, stage, dealflow])
 
 
-
 # Using the StartupScraper class
 if __name__ == "__main__":
-
-    #DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe
-    #URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
+    URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
     DRIVER_PATH = r"C:\Users\Fatma\Downloads\edgedriver_win64\msedgedriver.exe"
-    URL = "https://venture.angellist.com/v/gamha-islem-fatma/i/gamha-islem-fatma/syndicates/all"
 
     # Instance of StartupScraper
     scraper = StartupScraper(DRIVER_PATH, URL)
@@ -128,14 +111,15 @@ if __name__ == "__main__":
 
         # Results
         if scraped_data:
-            print("\nFinal Results:")
+            print("\Final Results:")
             print("COMPANIES: ", scraped_data["companies"])
             print("STAGES: ", scraped_data["stages"])
             print("DEALFLOWS: ", scraped_data["dealflows"])
 
+            # Save data to CSV
+            scraper.save_to_csv(scraped_data)
+            print("Data saved to scraped_data.csv")
+
     finally:
         # Close the driver
         scraper.close_driver()
-
-# scraping description ,deals per month,founder.. if needed
-# next part scraping the data to a csv file
