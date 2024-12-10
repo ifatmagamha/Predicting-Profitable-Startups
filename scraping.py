@@ -141,4 +141,4 @@ if __name__ == "__main__":
         scraper.close_driver()
 
 # scraping description ,deals per month,founder.. if needed
-# next part scraping the data to a csv file
+
