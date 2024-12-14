@@ -7,7 +7,6 @@ import time
 import csv
 import json
 
-
 class StartupScraper:
     def __init__(self, driver_path, url):
         self.driver_path = driver_path
