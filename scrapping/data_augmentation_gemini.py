@@ -35,7 +35,8 @@ class CompanyDataEnhancer:
     "description": "Flight.VC Syndicate is a VC firm investing in high-growth companies in AI, ML, and consumer product sectors. They focus on early-stage investments and have a strong track record of successful exits.",
     "markets": ["AI / ML", "Finance", "Consumer Product"],
     "follow on rate": "36%",
-    "investment by stage": {"seed": "65%", "early": "24%", "growth": "5%"}}
+    "investment by stage": {"seed": "65%", "early": "24%", "growth": "5%"},
+    "market value" : "247M$"}
 
     Example 2:
     Input:
@@ -52,7 +53,8 @@ class CompanyDataEnhancer:
     "description": "Unwritten Capital focuses on investing in promising companies with diverse founders in the Fintech, SaaS, and Healthtech industries. Their portfolio includes early-stage companies with high-growth potential.",
     "markets": ["ML/AI", "Healthtech"],
     "follow on rate": "45%",
-    "investment by stage": {"seed": "57%", "early": "43%", "growth": "11%"}}
+    "investment by stage": {"seed": "57%", "early": "43%", "growth": "11%"},
+    "market value" : "108M$"}
 
     Example 3:
     Input:
@@ -69,7 +71,8 @@ class CompanyDataEnhancer:
     "description": "MyAsiaVC invests in early-stage startups across the AI, SaaS, and Fintech sectors. They are focused on the Indian market with a keen interest in innovative solutions for emerging markets.",
     "markets": ["AI", "SaaS", "Fintech"],
     "follow on rate": "20%",
-    "investment by stage": {"seed": "73%", "early": "26%", "growth": "9%"}}
+    "investment by stage": {"seed": "73%", "early": "26%", "growth": "9%"},
+    "market value" : "73M$"}
 
     Your task is to generate a valid JSON output with all the above fields based on the provided input information.
     """
@@ -125,6 +128,17 @@ class CompanyDataEnhancer:
 
     def generate_default_values(self, company_name, stage, dealsflow):
         regions = ["USA", "Europe", "India", "Canada", "UK"]
+
+        if stage == "Seed":
+            market_value = random.randint(30, 100)  # Valeur plus basse pour les entreprises en Seed
+        elif stage == "Series A":
+            market_value = random.randint(100, 200)  # Valeur plus haute pour les Series A
+        elif stage == "Series B" or stage == "Growth":
+            market_value = random.randint(200, 370)  # Valeur encore plus haute pour les stades plus avancés
+        else:
+            market_value = random.randint(50, 150)  # Valeur par défaut pour les stades inconnus
+
+
         return {
             "company name": company_name,
             "stage": stage,
@@ -138,7 +152,8 @@ class CompanyDataEnhancer:
                 "seed": f"{random.randint(50, 70)}%",
                 "early": f"{random.randint(10, 30)}%",
                 "growth": f"{random.randint(5, 20)}%"
-            }
+            },
+            "market value": f"{market_value}$"
         }
 
     def process_data(self, batch_size=5):

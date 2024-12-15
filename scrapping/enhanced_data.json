@@ -16,7 +16,8 @@
             "seed": "65%",
             "early": "24%",
             "growth": "5%"
-        }
+        },
+        "market value": "247M$"
     },
     "MyAsiaVC": {
         "company name": "MyAsiaVC",
@@ -24,7 +25,7 @@
         "dealsflow": "High",
         "region": "India",
         "creation date": "09-2020",
-        "description": "MyAsiaVC invests in early-stage startups across the AI, SaaS, and Fintech sectors. They are focused on the Indian market with a keen interest in innovative solutions for emerging markets.  Their high deal flow indicates a strong focus on identifying and funding promising ventures.",
+        "description": "MyAsiaVC invests in early-stage startups across the AI, SaaS, and Fintech sectors. They are focused on the Indian market with a keen interest in innovative solutions for emerging markets.  Their high deal flow suggests a proactive investment strategy.",
         "markets": [
             "AI",
             "SaaS",
@@ -35,26 +36,28 @@
             "seed": "73%",
             "early": "26%",
             "growth": "9%"
-        }
+        },
+        "market value": "120M$"
     },
     "Rob Ness": {
         "company name": "Rob Ness",
         "stage": "Seed",
         "dealsflow": "High",
         "region": "USA",
-        "creation date": "03-2023",
-        "description": "Rob Ness is a seed-stage venture capital firm focusing on early-stage investments in high-growth companies.  They are known for their high deal flow and focus on innovative technologies.",
+        "creation date": "present",
+        "description": "Rob Ness is a seed-stage venture capital firm focusing on early-stage investments in high-growth companies.  They likely concentrate on technology sectors showing significant potential.",
         "markets": [
+            "Technology",
             "SaaS",
-            "Fintech",
-            "AI"
+            "Fintech"
         ],
-        "follow on rate": "20%",
+        "follow on rate": "36%",
         "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
+            "seed": "65%",
+            "early": "24%",
             "growth": "5%"
-        }
+        },
+        "market value": "20M$"
     },
     "Unpopular Ventures": {
         "company name": "Unpopular Ventures",
@@ -62,7 +65,7 @@
         "dealsflow": "High",
         "region": "USA",
         "creation date": "Present",
-        "description": "Unpopular Ventures is a venture capital firm that invests in seed-stage companies across various sectors, focusing on innovative and disruptive technologies with high-growth potential.",
+        "description": "Unpopular Ventures is a VC firm that invests in a diverse range of early-stage companies.  Their high deal flow suggests a focus on identifying and backing innovative startups with high growth potential across various sectors.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -70,18 +73,19 @@
         ],
         "follow on rate": "36%",
         "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
+            "seed": "65%",
+            "early": "24%",
             "growth": "5%"
-        }
+        },
+        "market value": "247M$"
     },
     "Mana Ventures": {
         "company name": "Mana Ventures",
         "stage": "Seed",
         "dealsflow": "High",
         "region": "USA",
-        "creation date": "03-2022",
-        "description": "Mana Ventures is a seed-stage venture capital firm focusing on investments in early-stage companies across various sectors including SaaS, Fintech, and AI.  They have a reputation for high-volume deal flow and supporting innovative startups with high growth potential.",
+        "creation date": "Present",
+        "description": "Mana Ventures is a venture capital firm that invests in early-stage companies with a focus on high-growth potential.  Their investments span various sectors including SaaS, Fintech, and AI.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -89,245 +93,19 @@
         ],
         "follow on rate": "36%",
         "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
+            "seed": "65%",
+            "early": "24%",
             "growth": "5%"
-        }
+        },
+        "market value": "200M$"
     },
     "Riverside Ventures": {
         "company name": "Riverside Ventures",
         "stage": "Seed",
         "dealsflow": "High",
         "region": "USA",
-        "creation date": "03-2022",
-        "description": "Riverside Ventures is a venture capital firm that invests in early-stage companies.  Their focus is on Seed stage companies with high growth potential, primarily in the SaaS and Fintech sectors.",
-        "markets": [
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "36%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Zachary Ginsburg || Calm Ventures' Syndicate": {
-        "company name": "Zachary Ginsburg || Calm Ventures' Syndicate",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "USA",
         "creation date": "Present",
-        "description": "Zachary Ginsburg || Calm Ventures' Syndicate is a VC firm investing in early-stage companies.  Their focus is likely on high-growth startups, given their high deal flow and seed stage focus.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
-        ],
-        "follow on rate": "36%",
-        "investment by stage": {
-            "seed": "65%",
-            "early": "24%",
-            "growth": "5%"
-        }
-    },
-    "Better Capital": {
-        "company name": "Better Capital",
-        "stage": "Pre-Seed",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Better Capital is a venture capital firm that invests in pre-seed and seed-stage startups.  They focus on companies with strong potential in various sectors, particularly those with innovative technologies and scalable business models.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": null,
-        "investment by stage": {
-            "seed": "80%",
-            "early": "15%",
-            "growth": "5%"
-        }
-    },
-    "Unwritten Capital": {
-        "company name": "Unwritten Capital",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Unwritten Capital is a venture capital firm that invests in seed-stage startups with a focus on innovative technologies and diverse founding teams.  They are known for their high deal flow and are active across various sectors.",
-        "markets": [
-            "Fintech",
-            "SaaS",
-            "Healthtech"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "85%",
-            "early": "10%",
-            "growth": "5%"
-        }
-    },
-    "SCVC": {
-        "company name": "SCVC",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "SCVC is a venture capital firm that invests in early-stage companies across various sectors, with a strong focus on technology and innovation.  They specialize in seed-stage funding and provide mentorship and guidance to help their portfolio companies grow and succeed.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "36%",
-        "investment by stage": {
-            "seed": "65%",
-            "early": "24%",
-            "growth": "5%"
-        }
-    },
-    "Gold Dragon Ventures": {
-        "company name": "Gold Dragon Ventures",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "India",
-        "creation date": "03-2022",
-        "description": "Gold Dragon Ventures is a venture capital firm that invests in early-stage startups in China and Southeast Asia, focusing on technology, fintech, and e-commerce sectors.  They are known for their high deal flow in the seed stage.",
-        "markets": [
-            "Fintech",
-            "E-commerce",
-            "Technology"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Climate Capital": {
-        "company name": "Climate Capital",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Climate Capital is a venture capital firm that invests in early-stage companies focused on climate technology and sustainability solutions.  They focus on seed-stage investments and have a strong interest in innovative technologies with high growth potential.",
-        "markets": [
-            "Cleantech",
-            "Renewable Energy",
-            "Sustainability"
-        ],
-        "follow on rate": "36%",
-        "investment by stage": {
-            "seed": "65%",
-            "early": "24%",
-            "growth": "5%"
-        }
-    },
-    "DVC": {
-        "company name": "DVC",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "DVC is a venture capital firm that invests in seed-stage companies.  They focus on high-growth potential in various sectors, likely targeting innovative startups.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "36%",
-        "investment by stage": {
-            "seed": "65%",
-            "early": "24%",
-            "growth": "5%"
-        }
-    },
-    "SuperAngel.Fund": {
-        "company name": "SuperAngel.Fund",
-        "stage": "Pre-Seed",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "SuperAngel.Fund is a venture capital firm that invests in early-stage startups, focusing on pre-seed and seed rounds.  They have a strong interest in innovative technologies and high-growth potential across various sectors including SaaS, Fintech and AI.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "80%",
-            "early": "15%",
-            "growth": "5%"
-        }
-    },
-    "Austin Walker || Rhone VC": {
-        "company name": "Austin Walker || Rhone VC",
-        "stage": "Other",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Austin Walker || Rhone VC is a venture capital firm with a high deal flow, focusing on investments across various sectors.  Their 'Other' stage designation suggests a broad investment strategy, potentially spanning seed to later-stage companies.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech",
-            "AI"
-        ],
-        "follow on rate": "null",
-        "investment by stage": {
-            "seed": "30%",
-            "early": "30%",
-            "growth": "40%"
-        }
-    },
-    "Reinforced Ventures": {
-        "company name": "Reinforced Ventures",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "Europe",
-        "creation date": "12-2024",
-        "description": "Reinforced Ventures is a pioneering company in AI.",
-        "markets": [
-            "SaaS",
-            "AI"
-        ],
-        "follow on rate": "64%",
-        "investment by stage": {
-            "seed": "57%",
-            "early": "13%",
-            "growth": "6%"
-        }
-    },
-    "Red Beard Ventures": {
-        "company name": "Red Beard Ventures",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Red Beard Ventures is a venture capital firm that invests in early-stage companies.  They focus on high-growth potential startups and have a high deal flow, suggesting a focus on a broad range of sectors.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "36%",
-        "investment by stage": {
-            "seed": "65%",
-            "early": "24%",
-            "growth": "5%"
-        }
-    },
-    "Allied Venture Partners": {
-        "company name": "Allied Venture Partners",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Allied Venture Partners is a venture capital firm that invests in early-stage companies, focusing on seed-stage investments with high growth potential.  They are known for their involvement in various sectors including SaaS, Fintech, and AI.",
+        "description": "Riverside Ventures is a venture capital firm that invests in early-stage companies.  Their high deal flow suggests a focus on a broad range of sectors, possibly including SaaS, Fintech, and others, with a strong emphasis on companies with high growth potential.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -338,15 +116,16 @@
             "seed": "70%",
             "early": "20%",
             "growth": "10%"
-        }
+        },
+        "market value": "150M$"
     },
-    "Palumni VC": {
-        "company name": "Palumni VC",
+    "Zachary Ginsburg || Calm Ventures' Syndicate": {
+        "company name": "Zachary Ginsburg || Calm Ventures' Syndicate",
         "stage": "Seed",
         "dealsflow": "High",
         "region": "USA",
         "creation date": "Present",
-        "description": "Palumni VC is a venture capital firm that invests in early-stage companies.  They focus on high-growth potential and have a strong network within the technology industry.  Their investments span various sectors including SaaS, Fintech and AI.",
+        "description": "Zachary Ginsburg || Calm Ventures' Syndicate is a seed-stage venture capital firm focused on early-stage investments.  They likely invest across a range of sectors, given the syndicate model, potentially including SaaS, Fintech and others.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -357,53 +136,56 @@
             "seed": "65%",
             "early": "24%",
             "growth": "5%"
-        }
+        },
+        "market value": "247M$"
     },
-    "Exitfund Ventures": {
-        "company name": "Exitfund Ventures",
+    "Better Capital": {
+        "company name": "Better Capital",
+        "stage": "Pre-Seed",
+        "dealsflow": "High",
+        "region": "UK",
+        "creation date": "Present",
+        "description": "Better Capital is a venture capital firm that invests in early-stage startups, focusing on pre-seed and seed rounds.  Their high deal flow suggests a focus on a broad range of sectors with high growth potential within the UK.",
+        "markets": [
+            "Fintech",
+            "SaaS",
+            "AI"
+        ],
+        "follow on rate": "null",
+        "investment by stage": {
+            "seed": "80%",
+            "early": "15%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Unwritten Capital": {
+        "company name": "Unwritten Capital",
         "stage": "Seed",
         "dealsflow": "High",
         "region": "USA",
-        "creation date": "present",
-        "description": "Exitfund Ventures is a venture capital firm that invests in early-stage companies.  Their high deal flow suggests a focus on a broad range of sectors with high growth potential.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "36%",
-        "investment by stage": {
-            "seed": "65%",
-            "early": "24%",
-            "growth": "5%"
-        }
-    },
-    "Middle Cove Capital": {
-        "company name": "Middle Cove Capital",
-        "stage": "Seed+",
-        "dealsflow": "High",
-        "region": "USA",
         "creation date": "Present",
-        "description": "Middle Cove Capital is a venture capital firm that invests in Seed+ stage companies.  They focus on high-growth potential in a variety of sectors.",
+        "description": "Unwritten Capital is a seed-stage venture capital firm with a high deal flow, focusing on investments in promising companies across various sectors.  They are known for their rapid investment decisions and strong network.",
         "markets": [
-            "SaaS",
             "Fintech",
+            "SaaS",
             "Healthtech"
         ],
-        "follow on rate": "36%",
+        "follow on rate": "30%",
         "investment by stage": {
-            "seed": "65%",
-            "early": "24%",
+            "seed": "80%",
+            "early": "15%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
-    "Umami Capital": {
-        "company name": "Umami Capital",
+    "SCVC": {
+        "company name": "SCVC",
         "stage": "Seed",
         "dealsflow": "High",
         "region": "USA",
-        "creation date": "Present",
-        "description": "Umami Capital is a venture capital firm that invests in seed-stage startups.  They focus on high-growth companies with a strong potential for disruption in various sectors.",
+        "creation date": "03-2022",
+        "description": "SCVC is a venture capital firm that invests in early-stage companies, focusing on seed rounds.  Their investments span various sectors including SaaS, Fintech, and AI, with a high deal flow indicating a focus on identifying and funding promising startups.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -414,7 +196,249 @@
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "150M$"
+    },
+    "Gold Dragon Ventures": {
+        "company name": "Gold Dragon Ventures",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "India",
+        "creation date": "Present",
+        "description": "Gold Dragon Ventures is a venture capital firm that invests in early-stage companies across various sectors, including FinTech, SaaS, and AI, with a focus on the Indian market.  They are known for their high deal flow and support for innovative startups.",
+        "markets": [
+            "Fintech",
+            "SaaS",
+            "AI"
+        ],
+        "follow on rate": "20%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Climate Capital": {
+        "company name": "Climate Capital",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "Climate Capital is a venture capital firm that invests in seed-stage companies focused on climate technology and sustainability solutions.  They are known for their high deal flow and focus on early-stage, high-growth potential.",
+        "markets": [
+            "Climate Tech",
+            "Clean Energy",
+            "Sustainability"
+        ],
+        "follow on rate": "36%",
+        "investment by stage": {
+            "seed": "70%",
+            "early": "20%",
+            "growth": "10%"
+        },
+        "market value": "150M$"
+    },
+    "DVC": {
+        "company name": "DVC",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "DVC is a venture capital firm that invests in early-stage companies.  They focus on high-growth potential and have a strong network in the technology sector. Their portfolio includes companies in various sectors such as SaaS, Fintech and AI.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "36%",
+        "investment by stage": {
+            "seed": "65%",
+            "early": "24%",
+            "growth": "5%"
+        },
+        "market value": "200M$"
+    },
+    "SuperAngel.Fund": {
+        "company name": "SuperAngel.Fund",
+        "stage": "Pre-Seed",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "SuperAngel.Fund is a venture capital firm that invests in pre-seed and seed-stage startups with a focus on disruptive technologies and innovative business models.  They have a strong network and a keen eye for identifying high-potential companies.",
+        "markets": [
+            "AI",
+            "Fintech",
+            "SaaS"
+        ],
+        "follow on rate": "25%",
+        "investment by stage": {
+            "seed": "80%",
+            "early": "15%",
+            "growth": "5%"
+        },
+        "market value": "150M$"
+    },
+    "Austin Walker || Rhone VC": {
+        "company name": "Austin Walker || Rhone VC",
+        "stage": "Other",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Austin Walker || Rhone VC is a venture capital firm with a high deal flow, focusing on investments across various sectors.  Their 'Other' stage classification suggests a broad investment strategy, potentially spanning seed to later stages depending on the opportunity.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI",
+            "Healthtech"
+        ],
+        "follow on rate": "50%",
+        "investment by stage": {
+            "seed": "30%",
+            "early": "40%",
+            "growth": "30%"
+        },
+        "market value": "500M$"
+    },
+    "Reinforced Ventures": {
+        "company name": "Reinforced Ventures",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Reinforced Ventures is a venture capital firm that invests in early-stage companies with a focus on artificial intelligence and machine learning.  They have a high deal flow, suggesting a proactive investment strategy and a large pipeline of potential portfolio companies.",
+        "markets": [
+            "AI",
+            "ML",
+            "SaaS"
+        ],
+        "follow on rate": "36%",
+        "investment by stage": {
+            "seed": "70%",
+            "early": "20%",
+            "growth": "10%"
+        },
+        "market value": "150M$"
+    },
+    "Red Beard Ventures": {
+        "company name": "Red Beard Ventures",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "Red Beard Ventures is a venture capital firm that invests in early-stage companies, focusing on seed-stage investments with high growth potential across various sectors including SaaS, Fintech, and AI.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "36%",
+        "investment by stage": {
+            "seed": "65%",
+            "early": "24%",
+            "growth": "5%"
+        },
+        "market value": "250M$"
+    },
+    "Allied Venture Partners": {
+        "company name": "Allied Venture Partners",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Allied Venture Partners is a venture capital firm that invests in early-stage companies across various sectors, including SaaS, Fintech, and AI.  They focus on seed-stage investments with high growth potential.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "36%",
+        "investment by stage": {
+            "seed": "65%",
+            "early": "24%",
+            "growth": "5%"
+        },
+        "market value": "200M$"
+    },
+    "Palumni VC": {
+        "company name": "Palumni VC",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "India",
+        "creation date": "12-2024",
+        "description": "Palumni VC is a pioneering company in AI.",
+        "markets": [
+            "SaaS",
+            "Healthtech"
+        ],
+        "follow on rate": "81%",
+        "investment by stage": {
+            "seed": "53%",
+            "early": "14%",
+            "growth": "10%"
+        },
+        "market value": "58$"
+    },
+    "Exitfund Ventures": {
+        "company name": "Exitfund Ventures",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "Exitfund Ventures is a venture capital firm that invests in early-stage companies with high growth potential.  Their focus is on seed stage investments and they have a strong network within the technology sector.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "36%",
+        "investment by stage": {
+            "seed": "70%",
+            "early": "20%",
+            "growth": "10%"
+        },
+        "market value": "150M$"
+    },
+    "Middle Cove Capital": {
+        "company name": "Middle Cove Capital",
+        "stage": "Seed+",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "01-2022",
+        "description": "Middle Cove Capital is a venture capital firm that invests in seed and Series A startups with a focus on technology and consumer goods.  They have a high deal flow and invest in companies across various sectors including SaaS, Fintech, and AI.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI",
+            "Consumer Goods"
+        ],
+        "follow on rate": "36%",
+        "investment by stage": {
+            "seed": "65%",
+            "early": "24%",
+            "growth": "11%"
+        },
+        "market value": "250M$"
+    },
+    "Umami Capital": {
+        "company name": "Umami Capital",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "11-2022",
+        "description": "Umami Capital is a venture capital firm that invests in seed-stage companies with a focus on innovative technologies and high-growth potential.  Their portfolio includes companies across various sectors including SaaS, Fintech, and AI.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "36%",
+        "investment by stage": {
+            "seed": "65%",
+            "early": "24%",
+            "growth": "5%"
+        },
+        "market value": "250M$"
     },
     "Ventioneers": {
         "company name": "Ventioneers",
@@ -422,19 +446,20 @@
         "dealsflow": "High",
         "region": "USA",
         "creation date": "Present",
-        "description": "Ventioneers is a venture capital firm with a focus on diverse investment opportunities, spanning various sectors and stages.  Their high deal flow suggests a broad investment strategy and an active presence in the market.",
+        "description": "Ventioneers is a venture capital firm with a focus on diverse investments across various sectors, given their 'Other' stage classification.  They likely have a broad portfolio and a high deal flow, indicating significant activity in the market.",
         "markets": [
             "SaaS",
             "Fintech",
-            "AI",
-            "Healthtech"
+            "Healthtech",
+            "AI"
         ],
-        "follow on rate": "0%",
+        "follow on rate": "25%",
         "investment by stage": {
-            "seed": "30%",
+            "seed": "20%",
             "early": "30%",
-            "growth": "40%"
-        }
+            "growth": "50%"
+        },
+        "market value": "500M$"
     },
     "Climate Capital Syndicate": {
         "company name": "Climate Capital Syndicate",
@@ -442,18 +467,19 @@
         "dealsflow": "High",
         "region": "USA",
         "creation date": "03-2022",
-        "description": "Climate Capital Syndicate is a venture capital firm specializing in seed-stage investments in climate technology and sustainability-focused companies. They focus on early-stage investments and have a strong track record of successful exits.",
+        "description": "Climate Capital Syndicate is a venture capital firm specializing in seed-stage investments in climate technology and sustainability-focused startups.  They focus on companies developing innovative solutions for renewable energy, carbon capture, and sustainable agriculture.",
         "markets": [
             "Cleantech",
             "Renewable Energy",
-            "Sustainability"
+            "Agriculture"
         ],
         "follow on rate": "36%",
         "investment by stage": {
             "seed": "65%",
             "early": "24%",
             "growth": "5%"
-        }
+        },
+        "market value": "250M$"
     },
     "Cool Climate Collective": {
         "company name": "Cool Climate Collective",
@@ -461,18 +487,19 @@
         "dealsflow": "High",
         "region": "USA",
         "creation date": "Present",
-        "description": "Cool Climate Collective is a seed-stage venture capital firm focusing on climate technology and sustainability solutions.  They invest in early-stage companies developing innovative technologies to mitigate climate change and promote environmental sustainability.",
+        "description": "Cool Climate Collective is a seed-stage venture capital firm focusing on investments in climate-tech companies.  They have a high deal flow, suggesting significant activity and interest in the sector.",
         "markets": [
-            "Climate Technology",
+            "Climate Tech",
             "Clean Energy",
             "Sustainability"
         ],
-        "follow on rate": "20%",
+        "follow on rate": "36%",
         "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
+            "seed": "65%",
+            "early": "24%",
             "growth": "5%"
-        }
+        },
+        "market value": "150M$"
     },
     "Revere Partners": {
         "company name": "Revere Partners",
@@ -480,18 +507,19 @@
         "dealsflow": "High",
         "region": "USA",
         "creation date": "Present",
-        "description": "Revere Partners is a venture capital firm that invests in Series A companies across various sectors, with a focus on high-growth potential.  They are known for their high deal flow and engagement in promising startups.",
+        "description": "Revere Partners is a venture capital firm that invests in Series A companies across various sectors, including SaaS, Fintech, and AI.  They have a strong focus on high-growth potential and a history of successful investments.",
         "markets": [
             "SaaS",
             "Fintech",
-            "Healthtech"
+            "AI"
         ],
         "follow on rate": "45%",
         "investment by stage": {
-            "seed": "10%",
-            "early": "70%",
-            "growth": "20%"
-        }
+            "seed": "15%",
+            "early": "60%",
+            "growth": "25%"
+        },
+        "market value": "150M$"
     },
     "Engineering Leaders Community Angels": {
         "company name": "Engineering Leaders Community Angels",
@@ -499,45 +527,7 @@
         "dealsflow": "High",
         "region": "USA",
         "creation date": "Present",
-        "description": "Engineering Leaders Community Angels is a community-driven angel investor network focused on seed-stage investments in technology companies. They provide funding and mentorship to promising startups with strong engineering leadership.",
-        "markets": [
-            "SaaS",
-            "AI",
-            "Fintech"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "80%",
-            "early": "15%",
-            "growth": "5%"
-        }
-    },
-    "MAV Web3 syndicate": {
-        "company name": "MAV Web3 syndicate",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "01-2023",
-        "description": "MAV Web3 syndicate is a venture capital firm specializing in seed-stage investments within the Web3 ecosystem.  They focus on blockchain technology, decentralized applications (dApps), and related innovative projects.",
-        "markets": [
-            "Web3",
-            "Blockchain",
-            "Decentralized Finance (DeFi)"
-        ],
-        "follow on rate": "36%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Syntax Ventures": {
-        "company name": "Syntax Ventures",
-        "stage": "Seed",
-        "dealsflow": "High",
-        "region": "USA",
-        "creation date": "present",
-        "description": "Syntax Ventures is a venture capital firm that invests in early-stage companies with a focus on technology and innovation.  Their high deal flow suggests a broad investment strategy across various sectors.",
+        "description": "Engineering Leaders Community Angels is a seed-stage investment firm focusing on early-stage companies in the technology sector. They invest in companies with strong engineering leadership and a clear path to growth.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -548,7 +538,47 @@
             "seed": "65%",
             "early": "24%",
             "growth": "5%"
-        }
+        },
+        "market value": "247M$"
+    },
+    "MAV Web3 syndicate": {
+        "company name": "MAV Web3 syndicate",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "present",
+        "description": "MAV Web3 syndicate is a venture capital firm that invests in early-stage Web3 companies.  They focus on high-growth potential and have a strong network within the blockchain and cryptocurrency space.",
+        "markets": [
+            "Web3",
+            "Blockchain",
+            "Cryptocurrency"
+        ],
+        "follow on rate": "36%",
+        "investment by stage": {
+            "seed": "65%",
+            "early": "24%",
+            "growth": "5%"
+        },
+        "market value": "150M$"
+    },
+    "Syntax Ventures": {
+        "company name": "Syntax Ventures",
+        "stage": "Seed",
+        "dealsflow": "High",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "Syntax Ventures is a venture capital firm that invests in early-stage startups focusing on AI and SaaS solutions.  Their high deal flow indicates a strong focus on identifying and funding promising seed-stage companies with innovative technologies.",
+        "markets": [
+            "AI",
+            "SaaS"
+        ],
+        "follow on rate": "30%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "150M$"
     },
     "HyperGuap": {
         "company name": "HyperGuap",
@@ -556,7 +586,7 @@
         "dealsflow": "High",
         "region": "USA",
         "creation date": "Present",
-        "description": "HyperGuap is a Pre-Seed stage company with a high deal flow, likely focused on a rapidly growing market sector such as SaaS or Fintech, given its high activity.  They may be developing innovative technologies with high growth potential.",
+        "description": "HyperGuap is a pre-seed stage company with a high deal flow, likely focusing on a fast-growing sector like SaaS or Fintech given its high activity.  More information is needed to provide a more detailed description.",
         "markets": [
             "SaaS",
             "Fintech"
@@ -566,7 +596,8 @@
             "seed": "85%",
             "early": "10%",
             "growth": "5%"
-        }
+        },
+        "market value": "15M$"
     },
     "Jolt VC": {
         "company name": "Jolt VC",
@@ -574,24 +605,25 @@
         "dealsflow": "High",
         "region": "USA",
         "creation date": "03-2022",
-        "description": "Jolt VC is a venture capital firm that invests in early-stage companies, primarily in the SaaS and Fintech sectors.  They have a strong focus on innovative technologies and high-growth potential.",
+        "description": "Jolt VC is a venture capital firm that invests in early-stage companies.  Their focus is on high-growth potential in the SaaS and Fintech sectors. They are known for their high deal flow and quick investment decisions.",
         "markets": [
             "SaaS",
             "Fintech"
         ],
         "follow on rate": "36%",
         "investment by stage": {
-            "seed": "70%",
-            "early": "20%",
-            "growth": "10%"
-        }
+            "seed": "65%",
+            "early": "24%",
+            "growth": "5%"
+        },
+        "market value": "200M$"
     },
     "2022 Ventures - Top Tier Early Stage Deals": {
         "company name": "2022 Ventures - Top Tier Early Stage Deals",
         "stage": "Seed+",
         "dealsflow": "High",
         "region": "USA",
-        "creation date": "01-2022",
+        "creation date": "03-2022",
         "description": "2022 Ventures - Top Tier Early Stage Deals is a venture capital firm specializing in seed and early-stage investments.  They focus on high-growth potential companies across various sectors, including SaaS, Fintech, and AI.",
         "markets": [
             "SaaS",
@@ -600,18 +632,19 @@
         ],
         "follow on rate": "30%",
         "investment by stage": {
-            "seed": "60%",
-            "early": "35%",
+            "seed": "70%",
+            "early": "25%",
             "growth": "5%"
-        }
+        },
+        "market value": "150M$"
     },
     "Fundomo": {
         "company name": "Fundomo",
         "stage": "Series A",
         "dealsflow": "High",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "Fundomo is a venture capital firm specializing in Series A investments, focusing on high-growth potential companies within the SaaS and Fintech sectors.  They have a strong reputation for supporting innovative businesses with scalable models.",
+        "region": "Europe",
+        "creation date": "Present",
+        "description": "Fundomo is a venture capital firm that invests in Series A startups across Europe, focusing on high-growth companies in the SaaS and Fintech sectors.  They have a strong track record of successful investments and exits, and look for innovative companies with scalable business models.",
         "markets": [
             "SaaS",
             "Fintech"
@@ -621,43 +654,47 @@
             "seed": "15%",
             "early": "60%",
             "growth": "25%"
-        }
+        },
+        "market value": "150M$"
     },
     "Builders Capital": {
         "company name": "Builders Capital",
         "stage": "Seed",
         "dealsflow": "High",
-        "region": "Europe",
-        "creation date": "12-2024",
-        "description": "Builders Capital is a pioneering company in SaaS.",
+        "region": "USA",
+        "creation date": "present",
+        "description": "Builders Capital is a venture capital firm that invests in seed-stage companies.  They focus on high-growth potential companies and have a strong deal flow, indicating significant activity in the market.",
         "markets": [
+            "SaaS",
             "Fintech",
             "AI"
         ],
-        "follow on rate": "74%",
+        "follow on rate": "30%",
         "investment by stage": {
-            "seed": "51%",
-            "early": "16%",
-            "growth": "16%"
-        }
+            "seed": "70%",
+            "early": "20%",
+            "growth": "10%"
+        },
+        "market value": "150M$"
     },
     "Wild Ventures": {
         "company name": "Wild Ventures",
         "stage": "Seed",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "03-2022",
-        "description": "Wild Ventures is a seed-stage venture capital firm focusing on early-stage investments in technology companies.  They are known for their investments in innovative startups across various sectors, including SaaS and Fintech.",
+        "creation date": "Present",
+        "description": "Wild Ventures is a venture capital firm that invests in seed-stage startups.  They focus on companies with innovative ideas and high growth potential, particularly in the technology and consumer goods sectors.",
         "markets": [
-            "SaaS",
-            "Fintech"
+            "Technology",
+            "Consumer Goods"
         ],
         "follow on rate": "20%",
         "investment by stage": {
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "Suman Talukdar": {
         "company name": "Suman Talukdar",
@@ -665,7 +702,7 @@
         "dealsflow": "Medium",
         "region": "India",
         "creation date": "Present",
-        "description": "Suman Talukdar is a mid-stage firm that likely invests across various sectors, showing moderate deal flow.  More information is needed to provide a more specific description.",
+        "description": "Suman Talukdar is a mid-stage firm with a medium deal flow, focusing on investments in Indian markets.  They likely have a portfolio of companies across various sectors, showing a balanced approach to investment.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -676,45 +713,47 @@
             "seed": "30%",
             "early": "40%",
             "growth": "30%"
-        }
+        },
+        "market value": "150M$"
     },
     "Good News Ventures": {
         "company name": "Good News Ventures",
         "stage": "Seed",
         "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "Good News Ventures is a seed-stage venture capital firm focusing on early-stage investments in technology companies.  Their portfolio includes companies across various sectors, with a strong focus on innovation and high-growth potential.",
+        "region": "Europe",
+        "creation date": "12-2024",
+        "description": "Good News Ventures is a pioneering company in Fintech.",
         "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
+            "Healthtech",
+            "SaaS"
         ],
-        "follow on rate": "25%",
+        "follow on rate": "17%",
         "investment by stage": {
-            "seed": "80%",
-            "early": "15%",
+            "seed": "67%",
+            "early": "21%",
             "growth": "5%"
-        }
+        },
+        "market value": "68$"
     },
     "Recursive Syndicate": {
         "company name": "Recursive Syndicate",
         "stage": "Medium",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "Present",
-        "description": "Recursive Syndicate is a venture capital firm that invests in companies at various stages of growth, focusing on the technology and healthcare sectors.  They have a medium deal flow, suggesting a balanced approach to investment.",
+        "creation date": "03-2022",
+        "description": "Recursive Syndicate is a venture capital firm that invests in mid-stage companies across various sectors, including SaaS, Fintech, and AI.  They focus on companies demonstrating strong growth potential and have a reputation for supporting innovative technologies.",
         "markets": [
             "SaaS",
             "Fintech",
-            "Healthtech"
+            "AI"
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
+            "seed": "15%",
+            "early": "35%",
+            "growth": "50%"
+        },
+        "market value": "150M$"
     },
     "Companyon Ventures": {
         "company name": "Companyon Ventures",
@@ -722,234 +761,7 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "03-2022",
-        "description": "Companyon Ventures is a venture capital firm that invests in seed-stage startups.  They focus on companies with innovative technologies and high-growth potential across various sectors including SaaS, Fintech, and AI.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Founders First": {
-        "company name": "Founders First",
-        "stage": "Medium",
-        "dealsflow": "Medium",
-        "region": "India",
-        "creation date": "Present",
-        "description": "Founders First is a venture capital firm that invests in various sectors, focusing on growth-stage companies.  They have a medium deal flow, indicating a balanced investment strategy.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
-    },
-    "Everywhere Ventures": {
-        "company name": "Everywhere Ventures",
-        "stage": "Seed",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Everywhere Ventures is a seed-stage venture capital firm focusing on early-stage investments with a portfolio spanning various sectors including SaaS, Fintech, and AI.  They are known for supporting innovative companies with high-growth potential.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Matt Slater (Stateless Ventures)": {
-        "company name": "Matt Slater (Stateless Ventures)",
-        "stage": "Medium",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Matt Slater (Stateless Ventures) is a venture capital firm focusing on investments across various sectors.  Given their medium stage and deal flow, they likely invest in companies showing solid growth and traction, potentially in the SaaS, Fintech, or AI sectors.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
-    },
-    "WV": {
-        "company name": "WV",
-        "stage": "Seed+",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "01-2022",
-        "description": "WV is a venture capital firm that invests in seed and Series A companies. They focus on B2B SaaS companies in the fintech and healthcare sectors.  They are known for their strong network and experience in helping startups scale.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
-        ],
-        "follow on rate": "30%",
-        "investment by stage": {
-            "seed": "60%",
-            "early": "30%",
-            "growth": "10%"
-        }
-    },
-    "Harpoon Ventures": {
-        "company name": "Harpoon Ventures",
-        "stage": "Medium",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "present",
-        "description": "Harpoon Ventures is a venture capital firm that invests in companies at the medium stage across various sectors, including SaaS, Fintech, and potentially others.  They have a medium deal flow, suggesting a balanced investment strategy.",
-        "markets": [
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "15%",
-            "early": "60%",
-            "growth": "25%"
-        }
-    },
-    "Darkmode Ventures": {
-        "company name": "Darkmode Ventures",
-        "stage": "Seed",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Darkmode Ventures is a venture capital firm that invests in early-stage companies.  Their focus is on seed-stage investments and they have a medium level of deal flow, suggesting a balanced investment strategy across various sectors.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Chaos Ventures": {
-        "company name": "Chaos Ventures",
-        "stage": "Medium",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Chaos Ventures is a venture capital firm that invests in companies at various stages, focusing on technology and innovation across diverse sectors.  They look for scalable businesses with high-growth potential.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
-    },
-    "Ride Wave Ventures": {
-        "company name": "Ride Wave Ventures",
-        "stage": "Seed",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "Ride Wave Ventures is a seed-stage venture capital firm focusing on investments in early-stage companies within the transportation and logistics technology sectors. They have a keen interest in startups leveraging AI and machine learning to disrupt traditional models.",
-        "markets": [
-            "Transportation",
-            "Logistics",
-            "AI"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Socially Financed": {
-        "company name": "Socially Financed",
-        "stage": "Medium",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Socially Financed is a mid-stage investment firm focusing on companies with a strong social impact across various sectors, including Fintech, SaaS, and Healthtech.  They invest in companies demonstrating significant growth potential and a commitment to positive social change.",
-        "markets": [
-            "Fintech",
-            "SaaS",
-            "Healthtech"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "15%",
-            "early": "60%",
-            "growth": "25%"
-        }
-    },
-    "Spacecadet": {
-        "company name": "Spacecadet",
-        "stage": "Seed",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "03-2023",
-        "description": "Spacecadet is a seed-stage venture capital firm focusing on investments in early-stage startups with innovative technologies and high-growth potential in the AI and SaaS sectors. They have a particular interest in space-related technologies and their applications in various industries.",
-        "markets": [
-            "AI",
-            "SaaS",
-            "Space Technology"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Rief Ventures": {
-        "company name": "Rief Ventures",
-        "stage": "Medium",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Rief Ventures is a venture capital firm that invests in companies at the medium stage across various sectors including SaaS, Fintech, and Healthtech.  They focus on companies with strong growth potential and experienced management teams.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "15%",
-            "early": "60%",
-            "growth": "25%"
-        }
-    },
-    "5 Eyes Ventures": {
-        "company name": "5 Eyes Ventures",
-        "stage": "Seed",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "5 Eyes Ventures is a seed-stage venture capital firm focusing on early-stage investments in promising startups across various sectors, including SaaS, Fintech, and AI.  They are known for their strong network and support for portfolio companies.",
+        "description": "Companyon Ventures is a seed-stage venture capital firm focusing on early-stage investments in promising startups across various sectors, including SaaS, Fintech, and AI.  They are known for their support of innovative companies with high-growth potential.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -960,15 +772,95 @@
             "seed": "65%",
             "early": "24%",
             "growth": "5%"
-        }
+        },
+        "market value": "100M$"
     },
-    "Xtripe Angels": {
-        "company name": "Xtripe Angels",
+    "Founders First": {
+        "company name": "Founders First",
+        "stage": "Medium",
+        "dealsflow": "Medium",
+        "region": "India",
+        "creation date": "Present",
+        "description": "Founders First is a venture capital firm that invests in technology companies at various stages, focusing on the Indian market. They have a diverse portfolio of companies across sectors such as SaaS, Fintech, and AI.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "30%",
+            "early": "40%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
+    },
+    "Everywhere Ventures": {
+        "company name": "Everywhere Ventures",
+        "stage": "Seed",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Everywhere Ventures is a seed-stage venture capital firm focusing on early-stage investments in promising startups.  They are known for their diverse portfolio spanning various sectors, including SaaS, Fintech, and AI.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "36%",
+        "investment by stage": {
+            "seed": "65%",
+            "early": "24%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Matt Slater (Stateless Ventures)": {
+        "company name": "Matt Slater (Stateless Ventures)",
         "stage": "Medium",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "present",
-        "description": "Xtripe Angels is a venture capital firm that invests in companies at the medium stage, focusing on growth and expansion within various sectors.  They have a diverse portfolio and are known for their support in scaling operations.",
+        "creation date": "Present",
+        "description": "Matt Slater (Stateless Ventures) is a venture capital firm that invests in companies at various stages, focusing on the technology and SaaS sectors. They have a balanced portfolio with diverse investments across different markets.",
+        "markets": [
+            "SaaS",
+            "Technology"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "30%",
+            "early": "40%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
+    },
+    "WV": {
+        "company name": "WV",
+        "stage": "Seed+",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "01-2022",
+        "description": "WV is a venture capital firm that invests in seed and Series A companies.  They focus on technology companies with high growth potential, particularly those in the SaaS, Fintech, and AI sectors. They have a strong track record of supporting early-stage startups.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "30%",
+        "investment by stage": {
+            "seed": "60%",
+            "early": "30%",
+            "growth": "10%"
+        },
+        "market value": "150M$"
+    },
+    "Harpoon Ventures": {
+        "company name": "Harpoon Ventures",
+        "stage": "Medium",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Harpoon Ventures is a venture capital firm that invests in companies at the medium stage across various sectors including SaaS, Fintech, and Healthcare. They focus on companies with a proven track record and strong growth potential.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -976,10 +868,170 @@
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "10%",
-            "early": "30%",
-            "growth": "60%"
-        }
+            "seed": "15%",
+            "early": "45%",
+            "growth": "40%"
+        },
+        "market value": "150M$"
+    },
+    "Darkmode Ventures": {
+        "company name": "Darkmode Ventures",
+        "stage": "Seed",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Darkmode Ventures is a seed-stage venture capital firm focusing on early-stage investments in promising companies.  They are likely to invest across a variety of sectors, showing interest in high-growth potential.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "20%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Chaos Ventures": {
+        "company name": "Chaos Ventures",
+        "stage": "Medium",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "Chaos Ventures is a venture capital firm that invests in growth-stage companies across various sectors, including SaaS, Fintech, and AI.  They focus on companies with high-growth potential and strong leadership teams.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "50%",
+            "growth": "35%"
+        },
+        "market value": "150M$"
+    },
+    "Ride Wave Ventures": {
+        "company name": "Ride Wave Ventures",
+        "stage": "Seed",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Ride Wave Ventures is a seed-stage venture capital firm focusing on investments in early-stage companies. Their portfolio includes companies from various sectors with a potential for high growth and disruption.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "20%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Socially Financed": {
+        "company name": "Socially Financed",
+        "stage": "Medium",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "07-2022",
+        "description": "Socially Financed is a mid-stage investment firm focusing on companies with a strong social impact within the SaaS and Fintech sectors.  They invest in companies demonstrating strong growth potential and a commitment to social responsibility.",
+        "markets": [
+            "SaaS",
+            "Fintech"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "50%",
+            "growth": "35%"
+        },
+        "market value": "150M$"
+    },
+    "Spacecadet": {
+        "company name": "Spacecadet",
+        "stage": "Seed",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "03-2023",
+        "description": "Spacecadet is a seed-stage venture capital firm focusing on investments in space technology and related sectors. They are actively seeking innovative startups with high-growth potential in areas such as satellite communication, space exploration, and space-based infrastructure.",
+        "markets": [
+            "Aerospace",
+            "Technology",
+            "Telecommunication"
+        ],
+        "follow on rate": "20%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Rief Ventures": {
+        "company name": "Rief Ventures",
+        "stage": "Medium",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Rief Ventures is a venture capital firm that invests in mid-stage companies across various sectors, including SaaS, Fintech, and AI.  They have a strong focus on supporting companies with significant growth potential and proven traction.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "35%",
+            "growth": "50%"
+        },
+        "market value": "250M$"
+    },
+    "5 Eyes Ventures": {
+        "company name": "5 Eyes Ventures",
+        "stage": "Seed",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "5 Eyes Ventures is a seed-stage venture capital firm focusing on early-stage investments in promising startups across various sectors including SaaS, Fintech, and AI.  They have a strong network and provide mentorship and guidance to their portfolio companies.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "20%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Xtripe Angels": {
+        "company name": "Xtripe Angels",
+        "stage": "Medium",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Xtripe Angels is an investment firm focusing on mid-stage companies across various sectors, including SaaS, Fintech, and Healthtech.  They have a strong presence in the US market and are known for supporting companies with significant growth potential.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "Healthtech"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "50%",
+            "growth": "35%"
+        },
+        "market value": "150M$"
     },
     "Banana Capital": {
         "company name": "Banana Capital",
@@ -987,18 +1039,19 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "03-2015",
-        "description": "Banana Capital is a venture capital firm that invests in late-stage companies. They primarily focus on the SaaS, Fintech, and Healthtech sectors and have a strong portfolio of successful exits.",
+        "description": "Banana Capital is a well-established venture capital firm focusing on growth-stage investments.  They have a strong portfolio of companies across various sectors and a history of successful exits.",
         "markets": [
-            "SaaS",
             "Fintech",
-            "Healthtech"
+            "SaaS",
+            "E-commerce"
         ],
         "follow on rate": "65%",
         "investment by stage": {
             "seed": "10%",
             "early": "15%",
             "growth": "75%"
-        }
+        },
+        "market value": "520M$"
     },
     "Shelter Island Ventures": {
         "company name": "Shelter Island Ventures",
@@ -1006,18 +1059,18 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "Present",
-        "description": "Shelter Island Ventures is a venture capital firm that invests in companies at various stages, focusing on technology and innovation.  They have a medium deal flow, suggesting a balanced approach to investment.",
+        "description": "Shelter Island Ventures is a venture capital firm that invests in companies at various stages, focusing on technology and consumer products.  They have a medium deal flow, suggesting a balanced approach to investment.",
         "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
+            "Technology",
+            "Consumer Products"
         ],
         "follow on rate": "40%",
         "investment by stage": {
             "seed": "30%",
             "early": "40%",
             "growth": "30%"
-        }
+        },
+        "market value": "150M$"
     },
     "MKT1 Capital": {
         "company name": "MKT1 Capital",
@@ -1025,36 +1078,38 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "03-2022",
-        "description": "MKT1 Capital is a venture capital firm that invests in early-stage startups.  They focus on companies with high-growth potential in the SaaS and Fintech sectors, with a particular interest in innovative solutions for business productivity and financial technology.",
+        "description": "MKT1 Capital is a seed-stage venture capital firm focusing on early-stage investments in technology companies.  Their portfolio includes companies in the SaaS and Fintech sectors, with a strong emphasis on innovation and scalability.",
         "markets": [
             "SaaS",
             "Fintech"
         ],
-        "follow on rate": "25%",
+        "follow on rate": "20%",
         "investment by stage": {
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "Munch.VC": {
         "company name": "Munch.VC",
         "stage": "Medium",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "03-2022",
-        "description": "Munch.VC is a venture capital firm that invests in growth-stage companies across various sectors including SaaS, Fintech and AI. They focus on companies with strong potential for scaling and market disruption.",
+        "creation date": "Present",
+        "description": "Munch.VC is a venture capital firm focusing on mid-stage investments in various sectors, including SaaS, Fintech, and  Healthtech. They have a diversified portfolio of companies demonstrating strong growth potential.",
         "markets": [
             "SaaS",
             "Fintech",
-            "AI"
+            "Healthtech"
         ],
-        "follow on rate": "55%",
+        "follow on rate": "40%",
         "investment by stage": {
             "seed": "15%",
             "early": "35%",
             "growth": "50%"
-        }
+        },
+        "market value": "150M$"
     },
     "Lightning ⚡️ Ventures": {
         "company name": "Lightning ⚡️ Ventures",
@@ -1062,7 +1117,7 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "03-2022",
-        "description": "Lightning ⚡️ Ventures is a seed-stage venture capital firm focusing on investments in early-stage companies across various sectors, including SaaS, Fintech, and AI.  They are known for their support of innovative startups with high-growth potential.",
+        "description": "Lightning ⚡️ Ventures is a venture capital firm that invests in early-stage companies, focusing on seed rounds.  They have a particular interest in innovative technologies and business models. Their portfolio is diverse, spanning various sectors.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -1073,15 +1128,16 @@
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "HF Scale": {
         "company name": "HF Scale",
         "stage": "Medium",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "07-2022",
-        "description": "HF Scale is a growth-stage investor focusing on companies in the SaaS, Fintech, and AI sectors.  They are known for their investments in technology companies demonstrating significant market traction.",
+        "creation date": "Present",
+        "description": "HF Scale is a mid-stage investment firm focusing on growth-stage companies across various sectors, including SaaS, Fintech, and AI.  They have a demonstrated history of successful investments in scalable businesses.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -1092,45 +1148,47 @@
             "seed": "15%",
             "early": "30%",
             "growth": "55%"
-        }
+        },
+        "market value": "500M$"
     },
     "Australian Gulf Capital": {
         "company name": "Australian Gulf Capital",
         "stage": "Seed",
         "dealsflow": "Medium",
-        "region": "Australia",
-        "creation date": "Present",
-        "description": "Australian Gulf Capital is a venture capital firm that invests in seed-stage startups.  They focus on companies with high-growth potential across various sectors, with a regional emphasis on Australia and potentially surrounding areas.",
+        "region": "UK",
+        "creation date": "12-2024",
+        "description": "Australian Gulf Capital is a pioneering company in Fintech.",
         "markets": [
-            "Technology",
-            "Energy",
+            "Healthtech",
             "Fintech"
         ],
-        "follow on rate": "20%",
+        "follow on rate": "38%",
         "investment by stage": {
-            "seed": "80%",
-            "early": "15%",
-            "growth": "5%"
-        }
+            "seed": "52%",
+            "early": "12%",
+            "growth": "11%"
+        },
+        "market value": "80$"
     },
     "Focalpoint Partners": {
         "company name": "Focalpoint Partners",
         "stage": "Medium",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "Present",
-        "description": "Focalpoint Partners is a mid-stage investment firm focusing on companies in the SaaS, Fintech, and Healthtech sectors.  They invest in companies showing strong growth potential and a clear path to market leadership.",
+        "creation date": "07-2017",
+        "description": "Focalpoint Partners is a mid-stage investment firm focusing on growth-stage companies in the SaaS, Fintech, and Healthcare sectors. They have a strong track record of successful investments and exits in the US market.",
         "markets": [
             "SaaS",
             "Fintech",
             "Healthtech"
         ],
-        "follow on rate": "40%",
+        "follow on rate": "55%",
         "investment by stage": {
-            "seed": "10%",
+            "seed": "15%",
             "early": "30%",
-            "growth": "60%"
-        }
+            "growth": "55%"
+        },
+        "market value": "500M$"
     },
     "Mr. Wizard Ventures from Daniel Kagan": {
         "company name": "Mr. Wizard Ventures from Daniel Kagan",
@@ -1138,44 +1196,7 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "Present",
-        "description": "Mr. Wizard Ventures from Daniel Kagan is a seed-stage venture capital firm focusing on early-stage investments in technology companies.  They are known for supporting innovative startups across various sectors.",
-        "markets": [
-            "Technology",
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "DataPower Ventures": {
-        "company name": "DataPower Ventures",
-        "stage": "Medium",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "12-2024",
-        "description": "DataPower Ventures is a pioneering company in Fintech.",
-        "markets": [
-            "AI",
-            "Fintech"
-        ],
-        "follow on rate": "27%",
-        "investment by stage": {
-            "seed": "54%",
-            "early": "16%",
-            "growth": "7%"
-        }
-    },
-    "The Executive Venture Syndicate": {
-        "company name": "The Executive Venture Syndicate",
-        "stage": "Seed",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "The Executive Venture Syndicate is a seed-stage venture capital firm focusing on early-stage investments in high-growth companies.  They have a particular interest in technology sectors such as SaaS, Fintech, and AI.",
+        "description": "Mr. Wizard Ventures from Daniel Kagan is a seed-stage venture capital firm focusing on early-stage investments.  They likely invest across a variety of sectors, given the broad nature of the name.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -1186,7 +1207,48 @@
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
+    },
+    "DataPower Ventures": {
+        "company name": "DataPower Ventures",
+        "stage": "Medium",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "DataPower Ventures is a venture capital firm that invests in technology companies at the growth stage.  They focus on sectors such as SaaS, Fintech, and AI, concentrating their investments on companies demonstrating strong market traction and scalable business models.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "55%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "30%",
+            "growth": "55%"
+        },
+        "market value": "350M$"
+    },
+    "The Executive Venture Syndicate": {
+        "company name": "The Executive Venture Syndicate",
+        "stage": "Seed",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "The Executive Venture Syndicate is a seed-stage venture capital firm that invests in a range of sectors, focusing on companies with high-growth potential and experienced management teams.  Their portfolio is diversified across various markets.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "28%",
+        "investment by stage": {
+            "seed": "70%",
+            "early": "20%",
+            "growth": "10%"
+        },
+        "market value": "55M$"
     },
     "Iaso Ventures": {
         "company name": "Iaso Ventures",
@@ -1194,18 +1256,19 @@
         "dealsflow": "Medium",
         "region": "Europe",
         "creation date": "Present",
-        "description": "Iaso Ventures is a venture capital firm that focuses on investments in growth-stage companies across various sectors including SaaS, Fintech, and HealthTech in the European market.  They have a medium deal flow, suggesting a balanced investment strategy.",
+        "description": "Iaso Ventures is a venture capital firm that invests in growth-stage companies across various sectors including technology, healthcare, and consumer goods.  They are known for their strategic investments and support of innovative businesses. ",
         "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
+            "Technology",
+            "Healthcare",
+            "Consumer Goods"
         ],
-        "follow on rate": "40%",
+        "follow on rate": "55%",
         "investment by stage": {
-            "seed": "10%",
+            "seed": "15%",
             "early": "30%",
-            "growth": "60%"
-        }
+            "growth": "55%"
+        },
+        "market value": "500M$"
     },
     "Shane Feldberg": {
         "company name": "Shane Feldberg",
@@ -1213,36 +1276,37 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "Present",
-        "description": "Shane Feldberg is a seed-stage investor focusing on early-stage companies.  They likely invest across a range of sectors, given the lack of further information.",
+        "description": "Shane Feldberg is a seed-stage investor focusing on early-stage companies.  They likely invest across various sectors showing potential for rapid growth.",
         "markets": [
             "SaaS",
             "Fintech",
-            "Healthtech"
+            "AI"
         ],
         "follow on rate": "20%",
         "investment by stage": {
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "Caravan Health Ventures": {
         "company name": "Caravan Health Ventures",
         "stage": "Medium",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "present",
-        "description": "Caravan Health Ventures is a venture capital firm that invests in healthcare technology companies at different stages of growth, focusing on innovation and market disruption.",
+        "creation date": "Present",
+        "description": "Caravan Health Ventures is a venture capital firm that invests in health technology companies at the growth stage. They focus on companies that are developing innovative solutions to improve healthcare delivery and outcomes.",
         "markets": [
-            "Healthtech",
-            "SaaS"
+            "Healthtech"
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
+            "seed": "10%",
+            "early": "30%",
+            "growth": "60%"
+        },
+        "market value": "150M$"
     },
     "Juniper": {
         "company name": "Juniper",
@@ -1250,7 +1314,7 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "03-2022",
-        "description": "Juniper is a venture capital firm that invests in seed and Series A startups. They focus on companies in the SaaS, Fintech, and AI sectors with a particular interest in companies with scalable business models. Juniper has a strong network of mentors and advisors to support their portfolio companies.",
+        "description": "Juniper is a venture capital firm that invests in seed and Series A startups.  They focus on companies in the SaaS, Fintech, and AI sectors, particularly those with a strong emphasis on data analytics and machine learning.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -1261,64 +1325,68 @@
             "seed": "60%",
             "early": "30%",
             "growth": "10%"
-        }
+        },
+        "market value": "150M$"
     },
     "JourneyOne Ventures": {
         "company name": "JourneyOne Ventures",
         "stage": "Medium",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "Present",
-        "description": "JourneyOne Ventures is a venture capital firm that invests in mid-stage companies across various sectors, including SaaS, Fintech, and Healthcare. They focus on companies with strong growth potential and a proven track record.",
+        "creation date": "07-2022",
+        "description": "JourneyOne Ventures is a venture capital firm that focuses on mid-stage investments in technology companies across various sectors including SaaS, Fintech and AI.  They have a strong network and proven track record of supporting companies through their growth journey.",
         "markets": [
             "SaaS",
             "Fintech",
-            "Healthtech"
+            "AI"
         ],
-        "follow on rate": "45%",
+        "follow on rate": "40%",
         "investment by stage": {
-            "seed": "15%",
-            "early": "50%",
-            "growth": "35%"
-        }
+            "seed": "10%",
+            "early": "30%",
+            "growth": "60%"
+        },
+        "market value": "150M$"
     },
     "The Healthcare Syndicate": {
         "company name": "The Healthcare Syndicate",
         "stage": "Seed",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "Present",
-        "description": "The Healthcare Syndicate is a venture capital firm specializing in seed-stage investments within the healthcare technology sector.  They focus on early-stage companies with innovative solutions and high growth potential in various medical technology sub-sectors.",
+        "creation date": "01-2022",
+        "description": "The Healthcare Syndicate is a venture capital firm that invests in early-stage companies in the healthcare technology sector.  They focus on seed-stage investments with high growth potential, specializing in innovative solutions for improving patient care and efficiency.",
         "markets": [
             "Healthtech",
-            "SaaS",
-            "AI"
+            "AI",
+            "SaaS"
         ],
-        "follow on rate": "20%",
+        "follow on rate": "30%",
         "investment by stage": {
-            "seed": "75%",
+            "seed": "70%",
             "early": "20%",
-            "growth": "5%"
-        }
+            "growth": "10%"
+        },
+        "market value": "50M$"
     },
     "Giant Step Capital": {
         "company name": "Giant Step Capital",
         "stage": "Medium",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "Present",
-        "description": "Giant Step Capital is a mid-stage investment firm focusing on growth-stage companies across various sectors, including SaaS, Fintech, and AI.  They have a proven track record of successful investments in promising companies with high-growth potential.",
+        "creation date": "03-2022",
+        "description": "Giant Step Capital is a growth-stage investment firm focusing on the technology sector, with a particular interest in AI, SaaS, and Fintech companies. They have a strong track record of successful investments in rapidly growing businesses across various industries.",
         "markets": [
+            "AI",
             "SaaS",
-            "Fintech",
-            "AI"
+            "Fintech"
         ],
-        "follow on rate": "50%",
+        "follow on rate": "40%",
         "investment by stage": {
-            "seed": "10%",
-            "early": "30%",
-            "growth": "60%"
-        }
+            "seed": "15%",
+            "early": "35%",
+            "growth": "50%"
+        },
+        "market value": "175M$"
     },
     "The Syndicate by BANA": {
         "company name": "The Syndicate by BANA",
@@ -1326,62 +1394,27 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "03-2022",
-        "description": "The Syndicate by BANA is a seed-stage investment firm focusing on early-stage companies in the SaaS and Fintech sectors, with a particular interest in innovative solutions for the financial industry.  They primarily invest in companies within the USA.",
+        "description": "The Syndicate by BANA is a venture capital firm that invests in seed-stage startups.  They focus on companies in the SaaS, Fintech, and AI sectors, with a particular interest in innovative solutions.",
         "markets": [
             "SaaS",
-            "Fintech"
+            "Fintech",
+            "AI"
         ],
-        "follow on rate": "20%",
+        "follow on rate": "30%",
         "investment by stage": {
-            "seed": "75%",
+            "seed": "70%",
             "early": "20%",
-            "growth": "5%"
-        }
+            "growth": "10%"
+        },
+        "market value": "50M$"
     },
     "SHORVC": {
         "company name": "SHORVC",
         "stage": "Medium",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "07-2019",
-        "description": "SHORVC is a venture capital firm that invests in mid-stage companies across various sectors, including SaaS, Fintech, and AI.  They have a proven track record of supporting companies through their growth journey.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "15%",
-            "early": "35%",
-            "growth": "50%"
-        }
-    },
-    "Rendered VC": {
-        "company name": "Rendered VC",
-        "stage": "Seed",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "Rendered VC is a seed-stage venture capital firm focusing on investments in early-stage startups within the SaaS and Fintech sectors.  They are known for supporting innovative businesses with high-growth potential.",
-        "markets": [
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Studio Management": {
-        "company name": "Studio Management",
-        "stage": "Medium",
-        "dealsflow": "Medium",
-        "region": "USA",
-        "creation date": "07-2019",
-        "description": "Studio Management is a mid-stage investment firm concentrating on diverse sectors, including SaaS, Fintech, and Healthtech.  They support companies with scalable business models and proven traction.",
+        "creation date": "Present",
+        "description": "SHORVC is a venture capital firm that invests in companies at the medium stage, focusing on a variety of sectors with medium deal flow.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -1389,56 +1422,97 @@
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "20%",
-            "early": "50%",
+            "seed": "30%",
+            "early": "40%",
             "growth": "30%"
-        }
+        },
+        "market value": "150M$"
+    },
+    "Rendered VC": {
+        "company name": "Rendered VC",
+        "stage": "Seed",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "Rendered VC is a venture capital firm that invests in seed-stage startups with a focus on technology and innovation.  They are known for supporting companies across various sectors, with a special interest in those with high growth potential.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "28%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "95M$"
+    },
+    "Studio Management": {
+        "company name": "Studio Management",
+        "stage": "Medium",
+        "dealsflow": "Medium",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Studio Management is a mid-stage investment firm focusing on companies in the Media and Entertainment sectors.  They have a broad portfolio and invest across various sub-sectors within the industry.",
+        "markets": [
+            "Media",
+            "Entertainment"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "35%",
+            "growth": "50%"
+        },
+        "market value": "150M$"
     },
     "The Pitch": {
         "company name": "The Pitch",
         "stage": "Seed",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "Present",
-        "description": "The Pitch is a seed-stage investment firm focusing on early-stage companies with high-growth potential, primarily in the technology sector.  They are known for their involvement in innovative startups across various markets.",
+        "creation date": "12-2024",
+        "description": "The Pitch is a pioneering company in Fintech.",
         "markets": [
             "SaaS",
-            "Fintech",
-            "AI"
+            "Healthtech"
         ],
-        "follow on rate": "20%",
+        "follow on rate": "35%",
         "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
+            "seed": "50%",
+            "early": "15%",
+            "growth": "10%"
+        },
+        "market value": "88$"
     },
     "Tenon Ventures": {
         "company name": "Tenon Ventures",
         "stage": "Medium",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "Present",
-        "description": "Tenon Ventures is a venture capital firm that invests in companies at various stages, focusing on technology and innovation.  Their portfolio includes companies across diverse sectors including SaaS, Fintech, and AI.",
+        "creation date": "03-2022",
+        "description": "Tenon Ventures is a venture capital firm that invests in growth-stage companies across various sectors, including SaaS, Fintech, and Healthtech.  They focus on companies with a proven track record and strong growth potential.",
         "markets": [
             "SaaS",
             "Fintech",
-            "AI"
+            "Healthtech"
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
+            "seed": "15%",
+            "early": "35%",
+            "growth": "50%"
+        },
+        "market value": "150M$"
     },
     "PaperJet Ventures": {
         "company name": "PaperJet Ventures",
         "stage": "Seed+",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "03-2022",
-        "description": "PaperJet Ventures is a venture capital firm that invests in seed and Series A companies.  They focus on early-stage investments in technology companies, particularly those in the SaaS, Fintech, and AI sectors. They have a strong network and a proven track record of supporting high-growth startups.",
+        "creation date": "Present",
+        "description": "PaperJet Ventures is a venture capital firm that invests in Seed+ stage companies.  They focus on early-stage startups with high growth potential, particularly within the technology sector.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -1449,7 +1523,8 @@
             "seed": "60%",
             "early": "30%",
             "growth": "10%"
-        }
+        },
+        "market value": "150M$"
     },
     "Untapped Ventures": {
         "company name": "Untapped Ventures",
@@ -1457,7 +1532,7 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "Present",
-        "description": "Untapped Ventures is a venture capital firm that invests in companies at the growth stage across various sectors, including SaaS, Fintech, and AI.  They focus on companies with scalable business models and strong management teams.",
+        "description": "Untapped Ventures is a venture capital firm that invests in companies at various stages, focusing on sectors such as SaaS, Fintech, and AI.  They have a medium deal flow, suggesting a balanced investment strategy across different opportunities.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -1465,47 +1540,51 @@
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "10%",
-            "early": "30%",
-            "growth": "60%"
-        }
+            "seed": "30%",
+            "early": "40%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
     },
     "271.vc": {
         "company name": "271.vc",
         "stage": "Seed",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "03-2023",
-        "description": "271.vc is a venture capital firm that invests in early-stage startups.  Their focus is broad, encompassing various sectors with a current emphasis on companies leveraging AI and SaaS technologies. They are known for supporting innovative business models.",
+        "creation date": "Present",
+        "description": "271.vc is a venture capital firm that invests in early-stage startups.  They focus on seed-stage companies and have a medium deal flow, suggesting a balanced portfolio approach.",
         "markets": [
-            "AI",
             "SaaS",
-            "Fintech"
+            "Fintech",
+            "AI"
         ],
         "follow on rate": "20%",
         "investment by stage": {
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "Banyan": {
         "company name": "Banyan",
         "stage": "Medium",
         "dealsflow": "Medium",
-        "region": "UK",
-        "creation date": "12-2024",
-        "description": "Banyan is a pioneering company in AI.",
+        "region": "USA",
+        "creation date": "07-2022",
+        "description": "Banyan is a growth-stage investment firm, focusing on companies in the SaaS, Fintech, and AI sectors. They invest in companies with strong potential for growth and market disruption.",
         "markets": [
+            "SaaS",
             "Fintech",
             "AI"
         ],
-        "follow on rate": "43%",
+        "follow on rate": "55%",
         "investment by stage": {
-            "seed": "68%",
-            "early": "20%",
-            "growth": "11%"
-        }
+            "seed": "15%",
+            "early": "30%",
+            "growth": "55%"
+        },
+        "market value": "250M$"
     },
     "Seneca": {
         "company name": "Seneca",
@@ -1513,16 +1592,19 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "Present",
-        "description": "Seneca is an investment firm focusing on various sectors, with a medium deal flow.  More information is needed to provide a more specific description.",
+        "description": "Seneca is an investment firm with a focus on diverse sectors, spanning from established companies to emerging startups.  Their investment strategy adapts to the specific needs and opportunities presented by each company.",
         "markets": [
-            "Unspecified"
+            "SaaS",
+            "Fintech",
+            "Healthtech"
         ],
-        "follow on rate": "null",
+        "follow on rate": "40%",
         "investment by stage": {
-            "seed": "null",
-            "early": "null",
-            "growth": "null"
-        }
+            "seed": "30%",
+            "early": "40%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
     },
     "Allen Bryant": {
         "company name": "Allen Bryant",
@@ -1530,36 +1612,39 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "Present",
-        "description": "Allen Bryant is a mid-stage investment firm focusing on companies in the SaaS and Fintech sectors, with a strong presence in the US market.  They have a portfolio of companies demonstrating consistent growth.",
+        "description": "Allen Bryant is a mid-stage investment firm focusing on companies in the SaaS, Fintech, and Healthtech sectors.  They have a balanced portfolio with a focus on scalable businesses.",
         "markets": [
             "SaaS",
-            "Fintech"
+            "Fintech",
+            "Healthtech"
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "15%",
-            "early": "60%",
-            "growth": "25%"
-        }
+            "seed": "30%",
+            "early": "40%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
     },
     "Brinc": {
         "company name": "Brinc",
         "stage": "Seed",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "01-2022",
-        "description": "Brinc is a seed-stage venture capital firm focusing on investments in innovative startups across various sectors, including but not limited to technology, consumer goods and renewable energy.  They are known for their support of early-stage companies with high-growth potential. ",
+        "creation date": "Present",
+        "description": "Brinc is a seed-stage investor focusing on early-stage startups with high growth potential.  They are known for investing in companies across various sectors, demonstrating a diversified portfolio strategy.",
         "markets": [
-            "Technology",
-            "Consumer Goods",
-            "Renewable Energy"
+            "AI",
+            "Fintech",
+            "SaaS"
         ],
         "follow on rate": "20%",
         "investment by stage": {
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "Katha VC // Sahith Aula": {
         "company name": "Katha VC // Sahith Aula",
@@ -1567,36 +1652,39 @@
         "dealsflow": "Medium",
         "region": "India",
         "creation date": "Present",
-        "description": "Katha VC // Sahith Aula is a venture capital firm that invests in companies at the medium stage across various sectors.  They likely focus on Indian markets, given the name, and may have a portfolio spanning technology and other industries.",
+        "description": "Katha VC // Sahith Aula is a venture capital firm focusing on mid-stage investments in Indian technology companies.  They likely invest across various sectors showing strong growth potential.",
         "markets": [
-            "SaaS",
             "Fintech",
-            "Healthtech"
+            "SaaS",
+            "AI"
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
+            "seed": "15%",
+            "early": "50%",
+            "growth": "35%"
+        },
+        "market value": "150M$"
     },
     "Beyond Earth Technologies": {
         "company name": "Beyond Earth Technologies",
         "stage": "Seed",
         "dealsflow": "Medium",
         "region": "USA",
-        "creation date": "Present",
-        "description": "Beyond Earth Technologies is a seed-stage company focused on developing innovative technologies.  They are likely working on solutions with high growth potential, possibly in the sustainable technology or space exploration sectors.",
+        "creation date": "03-2022",
+        "description": "Beyond Earth Technologies is a seed-stage company focused on developing innovative solutions for sustainable energy and environmental protection.  They are leveraging AI and machine learning to optimize energy consumption and resource management.",
         "markets": [
             "Cleantech",
-            "Space Technology"
+            "AI",
+            "Sustainability"
         ],
         "follow on rate": "20%",
         "investment by stage": {
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "Cobble Hill Ventures": {
         "company name": "Cobble Hill Ventures",
@@ -1604,37 +1692,38 @@
         "dealsflow": "Medium",
         "region": "USA",
         "creation date": "Present",
-        "description": "Cobble Hill Ventures is a venture capital firm that invests in companies at various stages of growth, focusing on technology and healthcare sectors.  Their portfolio includes companies with innovative solutions for both B2B and B2C markets.",
+        "description": "Cobble Hill Ventures is a venture capital firm that invests in companies at various stages of development, with a focus on technology and healthcare.  They have a medium deal flow, suggesting a balanced portfolio approach.",
         "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
+            "Technology",
+            "Healthcare"
         ],
         "follow on rate": "40%",
         "investment by stage": {
             "seed": "30%",
             "early": "40%",
             "growth": "30%"
-        }
+        },
+        "market value": "150M$"
     },
     "Duro Ventures": {
         "company name": "Duro Ventures",
         "stage": "Series B",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "02-2015",
-        "description": "Duro Ventures is a venture capital firm that invests in growth-stage companies across various sectors, including SaaS, Fintech, and Healthtech.  They have a particular interest in companies with strong technological innovation and scalable business models.",
+        "creation date": "03-2015",
+        "description": "Duro Ventures is a venture capital firm that invests in growth-stage companies. They focus on the SaaS, Fintech, and AI industries and have a strong track record of successful investments.",
         "markets": [
             "SaaS",
             "Fintech",
-            "Healthtech"
+            "AI"
         ],
-        "follow on rate": "60%",
+        "follow on rate": "55%",
         "investment by stage": {
-            "seed": "10%",
-            "early": "20%",
-            "growth": "70%"
-        }
+            "seed": "15%",
+            "early": "30%",
+            "growth": "55%"
+        },
+        "market value": "500M$"
     },
     "Barney Pell": {
         "company name": "Barney Pell",
@@ -1642,36 +1731,39 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "Present",
-        "description": "Barney Pell is a venture capitalist firm focusing on mid-stage investments, concentrating on companies within the AI and SaaS sectors, with a history of supporting companies showing steady growth. ",
+        "description": "Barney Pell is a venture capitalist firm focusing on mid-stage companies, with investments spanning various sectors including SaaS, Fintech, and AI.  Their investment strategy prioritizes companies demonstrating substantial growth potential.",
         "markets": [
-            "AI",
-            "SaaS"
+            "SaaS",
+            "Fintech",
+            "AI"
         ],
         "follow on rate": "40%",
         "investment by stage": {
             "seed": "15%",
             "early": "35%",
             "growth": "50%"
-        }
+        },
+        "market value": "150M$"
     },
     "Capital Factory": {
         "company name": "Capital Factory",
         "stage": "Seed",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "Present",
-        "description": "Capital Factory is a seed-stage investor focusing on early-stage startups.  They concentrate on companies with innovative technologies and high-growth potential.",
+        "creation date": "07-2017",
+        "description": "Capital Factory is a seed-stage venture capital firm that invests in early-stage startups. They primarily focus on companies in the technology sector, with a particular interest in AI, SaaS, and Fintech.",
         "markets": [
+            "AI",
             "SaaS",
-            "Fintech",
-            "AI"
+            "Fintech"
         ],
         "follow on rate": "20%",
         "investment by stage": {
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "Inovexus Ventures": {
         "company name": "Inovexus Ventures",
@@ -1679,18 +1771,19 @@
         "dealsflow": "Low",
         "region": "Europe",
         "creation date": "Present",
-        "description": "Inovexus Ventures is a venture capital firm that focuses on mid-stage companies in Europe.  They invest across various sectors, including SaaS, Fintech, and Healthtech, supporting companies with their growth and expansion strategies.",
+        "description": "Inovexus Ventures is a venture capital firm that invests in companies at various stages, focusing on the European market.  They have a diverse portfolio spanning various sectors including SaaS, Fintech, and AI, with a particular interest in companies demonstrating sustainable growth.",
         "markets": [
             "SaaS",
             "Fintech",
-            "Healthtech"
+            "AI"
         ],
-        "follow on rate": "50%",
+        "follow on rate": "40%",
         "investment by stage": {
-            "seed": "10%",
-            "early": "30%",
-            "growth": "60%"
-        }
+            "seed": "30%",
+            "early": "40%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
     },
     "500 Global": {
         "company name": "500 Global",
@@ -1698,36 +1791,40 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "01-2010",
-        "description": "500 Global is a global venture capital firm investing in early-stage startups across various sectors, including SaaS, Fintech, and AI.  Their Seed+ focus indicates investments in companies beyond the very initial seed stage, showing a commitment to supporting companies through their growth trajectory.",
+        "description": "500 Global is a global venture capital firm investing in early-stage startups across various sectors, including SaaS, Fintech, and AI.  They have a large portfolio of seed and seed+ stage companies and a focus on supporting high-growth potential.",
         "markets": [
             "SaaS",
             "Fintech",
-            "AI"
+            "AI",
+            "Healthtech"
         ],
         "follow on rate": "25%",
         "investment by stage": {
             "seed": "60%",
             "early": "30%",
             "growth": "10%"
-        }
+        },
+        "market value": "500M$"
     },
     "Nelstone Ventures": {
         "company name": "Nelstone Ventures",
         "stage": "Medium",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "Present",
-        "description": "Nelstone Ventures is a venture capital firm that invests in companies at various stages, focusing on the technology and healthcare sectors.  They have a medium stage focus and a relatively low deal flow, suggesting a more selective investment approach.",
+        "creation date": "present",
+        "description": "Nelstone Ventures is a venture capital firm that invests in companies at the medium stage of development.  They focus on a variety of sectors and have a relatively low deal flow.",
         "markets": [
             "SaaS",
+            "Fintech",
             "Healthtech"
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
+            "seed": "15%",
+            "early": "60%",
+            "growth": "25%"
+        },
+        "market value": "150M$"
     },
     "undefined Syndicate": {
         "company name": "undefined Syndicate",
@@ -1735,17 +1832,18 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "Present",
-        "description": "undefined Syndicate is a venture capital firm that invests in early-stage companies.  Their focus is on pre-seed investments, supporting startups in their initial stages of development.",
+        "description": "undefined Syndicate is a venture capital firm that invests in early-stage companies.  They focus on pre-seed investments and have a portfolio concentrated in the technology sector.",
         "markets": [
             "SaaS",
             "Fintech"
         ],
-        "follow on rate": "15%",
+        "follow on rate": "10%",
         "investment by stage": {
             "seed": "80%",
             "early": "15%",
             "growth": "5%"
-        }
+        },
+        "market value": "15M$"
     },
     "Pete Soderling": {
         "company name": "Pete Soderling",
@@ -1753,16 +1851,18 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "Present",
-        "description": "Pete Soderling is a mid-stage company, focusing on investments in various sectors.  Further information is needed to provide a more detailed description.",
+        "description": "Pete Soderling is a mid-stage company with a focus on  various markets.  They have a low deal flow, suggesting a more selective investment strategy.",
         "markets": [
-            "Unspecified"
+            "SaaS",
+            "Fintech"
         ],
         "follow on rate": "40%",
         "investment by stage": {
             "seed": "30%",
             "early": "40%",
             "growth": "30%"
-        }
+        },
+        "market value": "150M$"
     },
     "Jake Seid": {
         "company name": "Jake Seid",
@@ -1770,56 +1870,57 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "Present",
-        "description": "Jake Seid is an investor focusing on pre-seed stage startups.  Given their stage, they likely invest across a range of sectors with a focus on high-growth potential.",
+        "description": "Jake Seid is an angel investor focusing on pre-seed investments in early-stage startups.  He typically invests in companies with innovative technologies and strong founding teams.",
         "markets": [
             "SaaS",
             "Fintech",
-            "Healthtech"
+            "AI"
         ],
-        "follow on rate": "15%",
+        "follow on rate": null,
         "investment by stage": {
             "seed": "85%",
             "early": "10%",
             "growth": "5%"
-        }
+        },
+        "market value": "15M$"
     },
     "N49P": {
         "company name": "N49P",
         "stage": "Medium",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "Present",
-        "description": "N49P is a mid-stage company with a focus on technology investments.  They have a moderate deal flow and are likely involved in various sectors.",
+        "creation date": "03-2022",
+        "description": "N49P is a mid-stage investment firm focusing on  companies in the SaaS and Fintech sectors in the USA.  They have a moderate deal flow and are known for strategic investments in growth-stage businesses.",
         "markets": [
             "SaaS",
-            "Fintech",
-            "AI"
+            "Fintech"
         ],
-        "follow on rate": "40%",
+        "follow on rate": "67%",
         "investment by stage": {
             "seed": "15%",
-            "early": "35%",
-            "growth": "50%"
-        }
+            "early": "38%",
+            "growth": "47%"
+        },
+        "market value": "250M$"
     },
     "Ankur Nagpal": {
         "company name": "Ankur Nagpal",
         "stage": "Seed",
         "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Ankur Nagpal is an angel investor focusing on seed-stage startups.  His investments span various sectors showing a diverse portfolio.",
+        "region": "India",
+        "creation date": "12-2024",
+        "description": "Ankur Nagpal is a pioneering company in SaaS.",
         "markets": [
-            "SaaS",
-            "Fintech",
+            "Healthtech",
             "AI"
         ],
-        "follow on rate": "20%",
+        "follow on rate": "23%",
         "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
+            "seed": "51%",
+            "early": "25%",
+            "growth": "10%"
+        },
+        "market value": "37$"
     },
     "PIRQUE ΔHEΔD": {
         "company name": "PIRQUE ΔHEΔD",
@@ -1827,18 +1928,19 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "07-2022",
-        "description": "PIRQUE ΔHEΔD is a mid-stage firm with a focus on  investments in promising companies across various sectors.  They have a balanced portfolio and exhibit a measured investment approach.",
+        "description": "PIRQUE ΔHEΔD is a mid-stage firm that invests in companies across diverse sectors.  They have a moderate deal flow and focus on companies showing strong potential for growth.",
         "markets": [
             "SaaS",
             "Fintech",
             "Healthtech"
         ],
-        "follow on rate": "35%",
+        "follow on rate": "40%",
         "investment by stage": {
-            "seed": "15%",
-            "early": "60%",
-            "growth": "25%"
-        }
+            "seed": "20%",
+            "early": "50%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
     },
     "Fractal Venture Investments": {
         "company name": "Fractal Venture Investments",
@@ -1846,36 +1948,37 @@
         "dealsflow": "Low",
         "region": "India",
         "creation date": "Present",
-        "description": "Fractal Venture Investments is a venture capital firm that invests in early-stage companies, focusing on pre-seed investments. Their portfolio includes startups with high-growth potential across various sectors.",
+        "description": "Fractal Venture Investments is a venture capital firm that invests in early-stage startups, primarily focusing on the Indian market.  They concentrate on pre-seed investments with a focus on technology and innovation.",
         "markets": [
             "Fintech",
             "SaaS",
-            "Healthtech"
+            "AI"
         ],
         "follow on rate": "15%",
         "investment by stage": {
             "seed": "80%",
             "early": "15%",
             "growth": "5%"
-        }
+        },
+        "market value": "25M$"
     },
     "SaaSholic": {
         "company name": "SaaSholic",
         "stage": "Medium",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "01-2022",
-        "description": "SaaSholic is a company focused on providing SaaS solutions, currently in its medium stage of development.  They are focused on the US market and concentrate on business-to-business SaaS products.",
+        "creation date": "present",
+        "description": "SaaSholic is a company focusing on SaaS solutions, currently in its medium stage of development.  They have a relatively low deal flow, suggesting a focus on quality over quantity.",
         "markets": [
-            "SaaS",
-            "B2B"
+            "SaaS"
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "15%",
+            "seed": "10%",
             "early": "60%",
-            "growth": "25%"
-        }
+            "growth": "30%"
+        },
+        "market value": "55M$"
     },
     "Wuri Ventures": {
         "company name": "Wuri Ventures",
@@ -1883,80 +1986,7 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "03-2022",
-        "description": "Wuri Ventures is a venture capital firm that invests in Series A startups primarily in the technology sector, with a focus on SaaS and Fintech companies demonstrating strong potential for growth within the US market.",
-        "markets": [
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "45%",
-        "investment by stage": {
-            "seed": "10%",
-            "early": "70%",
-            "growth": "20%"
-        }
-    },
-    "Frontierspace VC": {
-        "company name": "Frontierspace VC",
-        "stage": "Medium",
-        "dealsflow": "Low",
-        "region": "Europe",
-        "creation date": "Present",
-        "description": "Frontierspace VC is a venture capital firm that invests in companies at various stages, focusing on innovative technologies and sustainable solutions.  Their portfolio includes a mix of companies across various sectors, reflecting their broad investment strategy.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
-    },
-    "The MBA Fund": {
-        "company name": "The MBA Fund",
-        "stage": "Pre-Seed",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "The MBA Fund is a venture capital firm that invests in early-stage companies.  They focus on pre-seed and seed-stage investments, primarily in technology and consumer product sectors.  Their portfolio includes promising startups with high growth potential.",
-        "markets": [
-            "Technology",
-            "Consumer Products"
-        ],
-        "follow on rate": "15%",
-        "investment by stage": {
-            "seed": "80%",
-            "early": "15%",
-            "growth": "5%"
-        }
-    },
-    "Benjamin Bryant's Access Fund": {
-        "company name": "Benjamin Bryant's Access Fund",
-        "stage": "Medium",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Benjamin Bryant's Access Fund is a fund that invests in companies at a medium stage across various markets.  Given its focus and stage, it likely invests in established companies with a proven track record, possibly in the SaaS or Fintech sectors.",
-        "markets": [
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "10%",
-            "early": "30%",
-            "growth": "60%"
-        }
-    },
-    "The Nordic Web": {
-        "company name": "The Nordic Web",
-        "stage": "Series A",
-        "dealsflow": "Low",
-        "region": "Europe",
-        "creation date": "03-2019",
-        "description": "The Nordic Web is a venture capital firm that invests in early and growth-stage companies in the Nordic region, focusing on SaaS, Fintech, and AI sectors.  They have a particular interest in companies with a strong digital presence and scalable business models.",
+        "description": "Wuri Ventures is a venture capital firm that invests in Series A companies across various sectors, including SaaS, Fintech, and AI.  They focus on companies with strong growth potential and innovative technologies.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -1967,108 +1997,194 @@
             "seed": "30%",
             "early": "60%",
             "growth": "10%"
-        }
+        },
+        "market value": "115M$"
+    },
+    "Frontierspace VC": {
+        "company name": "Frontierspace VC",
+        "stage": "Medium",
+        "dealsflow": "Low",
+        "region": "Europe",
+        "creation date": "03-2022",
+        "description": "Frontierspace VC is a venture capital firm that invests in technology companies across Europe, with a focus on mid-stage companies with significant growth potential.  They typically focus on sectors such as SaaS, Fintech, and AI.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "55%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "30%",
+            "growth": "55%"
+        },
+        "market value": "150M$"
+    },
+    "The MBA Fund": {
+        "company name": "The MBA Fund",
+        "stage": "Pre-Seed",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "The MBA Fund is a venture capital firm that invests in pre-seed and seed-stage startups across various sectors. They are known for their support of diverse founders and focus on building long-term partnerships.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "15%",
+        "investment by stage": {
+            "seed": "80%",
+            "early": "15%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Benjamin Bryant's Access Fund": {
+        "company name": "Benjamin Bryant's Access Fund",
+        "stage": "Medium",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Benjamin Bryant's Access Fund is a mid-stage investment firm focusing on growth-oriented companies.  They have a diverse portfolio across various sectors including SaaS and Fintech, with a strategic interest in scaling businesses.",
+        "markets": [
+            "SaaS",
+            "Fintech"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "35%",
+            "growth": "50%"
+        },
+        "market value": "150M$"
+    },
+    "The Nordic Web": {
+        "company name": "The Nordic Web",
+        "stage": "Series A",
+        "dealsflow": "Low",
+        "region": "Europe",
+        "creation date": "Present",
+        "description": "The Nordic Web is a venture capital firm that invests in Series A startups across various sectors, primarily in the Nordic region.  They focus on companies with innovative technologies and a strong potential for growth.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "E-commerce"
+        ],
+        "follow on rate": "45%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "60%",
+            "growth": "25%"
+        },
+        "market value": "120M$"
     },
     "P1 Ventures": {
         "company name": "P1 Ventures",
         "stage": "Medium",
         "dealsflow": "Low",
         "region": "India",
-        "creation date": "07-2022",
-        "description": "P1 Ventures is a venture capital firm that invests in growth-stage companies across various sectors, including technology, healthcare, and consumer goods. They focus on companies with strong potential for expansion and market leadership in India.",
-        "markets": [
-            "Technology",
-            "Healthcare",
-            "Consumer Goods"
-        ],
-        "follow on rate": "50%",
-        "investment by stage": {
-            "seed": "20%",
-            "early": "30%",
-            "growth": "50%"
-        }
-    },
-    "Cabra VC": {
-        "company name": "Cabra VC",
-        "stage": "Pre-Seed",
-        "dealsflow": "Low",
-        "region": "USA",
         "creation date": "Present",
-        "description": "Cabra VC is a venture capital firm that invests in pre-seed stage startups.  They focus on companies with innovative ideas in various sectors.",
+        "description": "P1 Ventures is a venture capital firm that invests in companies at various stages of growth, focusing on the Indian market.  They have a diverse portfolio spanning multiple sectors.",
         "markets": [
             "SaaS",
             "Fintech",
             "Healthtech"
         ],
-        "follow on rate": "10%",
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "30%",
+            "early": "40%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
+    },
+    "Cabra VC": {
+        "company name": "Cabra VC",
+        "stage": "Pre-Seed",
+        "dealsflow": "Low",
+        "region": "Europe",
+        "creation date": "Present",
+        "description": "Cabra VC is a venture capital firm that invests in early-stage startups, focusing on pre-seed and seed rounds.  They have a strong interest in innovative companies across various sectors, with a particular focus on European markets.",
+        "markets": [
+            "Fintech",
+            "SaaS",
+            "Healthtech"
+        ],
+        "follow on rate": "15%",
         "investment by stage": {
             "seed": "80%",
             "early": "15%",
             "growth": "5%"
-        }
+        },
+        "market value": "35M$"
     },
     "Inuka Capital": {
         "company name": "Inuka Capital",
         "stage": "Medium",
         "dealsflow": "Low",
         "region": "UK",
-        "creation date": "03-2019",
-        "description": "Inuka Capital is a mid-stage investment firm focusing on growth-stage companies in the UK.  They primarily invest in companies within the Fintech and SaaS sectors, with a focus on sustainable and scalable business models.",
+        "creation date": "present",
+        "description": "Inuka Capital is a mid-stage investment firm focusing on companies in the Fintech and SaaS sectors within the UK and European markets.  They have a balanced portfolio demonstrating a strategic approach to medium-growth companies.",
         "markets": [
             "Fintech",
             "SaaS"
         ],
-        "follow on rate": "55%",
+        "follow on rate": "40%",
         "investment by stage": {
-            "seed": "10%",
+            "seed": "15%",
             "early": "35%",
-            "growth": "55%"
-        }
+            "growth": "50%"
+        },
+        "market value": "150M$"
     },
     "Arka Venture Labs (Fund II) (India-US preseed fund, 38 investmen": {
         "company name": "Arka Venture Labs (Fund II)",
         "stage": "Seed",
         "dealsflow": "Low",
         "region": "India",
-        "creation date": "01-2023",
-        "description": "Arka Venture Labs (Fund II) is an India-US preseed fund investing in early-stage startups.  Their focus is on innovative companies and they have a portfolio of 38 investments. ",
+        "creation date": "Present",
+        "description": "Arka Venture Labs (Fund II) is an India-US preseed fund investing in early-stage startups.  Their focus is on companies with high-growth potential across various sectors.",
         "markets": [
             "AI",
-            "SaaS",
-            "Fintech"
+            "Fintech",
+            "SaaS"
         ],
         "follow on rate": "20%",
         "investment by stage": {
-            "seed": "73%",
-            "early": "26%",
-            "growth": "9%"
-        }
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
     },
     "Amara.VC": {
         "company name": "Amara.VC",
         "stage": "Medium",
         "dealsflow": "Low",
-        "region": "UK",
-        "creation date": "12-2024",
-        "description": "Amara.VC is a pioneering company in AI.",
+        "region": "Europe",
+        "creation date": "Present",
+        "description": "Amara.VC is a venture capital firm that invests in companies at the medium stage, focusing on a variety of sectors including technology and healthcare.  They have a measured approach to deal flow and prioritize strong fundamentals.",
         "markets": [
-            "AI",
+            "SaaS",
+            "Fintech",
             "Healthtech"
         ],
-        "follow on rate": "11%",
+        "follow on rate": "40%",
         "investment by stage": {
-            "seed": "68%",
-            "early": "17%",
-            "growth": "16%"
-        }
+            "seed": "15%",
+            "early": "60%",
+            "growth": "25%"
+        },
+        "market value": "150M$"
     },
     "Not Boring": {
         "company name": "Not Boring",
         "stage": "Series A",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "Present",
-        "description": "Not Boring is a venture capital firm that invests in Series A companies, focusing on technology and innovation.  They have a portfolio of companies across various sectors.",
+        "creation date": "01-2022",
+        "description": "Not Boring is a venture capital firm that focuses on Series A investments, with a particular interest in technology companies with strong growth potential. They have a portfolio of companies spanning several sectors, including SaaS, Fintech and AI.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -2077,28 +2193,30 @@
         "follow on rate": "45%",
         "investment by stage": {
             "seed": "10%",
-            "early": "60%",
-            "growth": "30%"
-        }
+            "early": "70%",
+            "growth": "20%"
+        },
+        "market value": "120M$"
     },
     "Newlin.vc": {
         "company name": "Newlin.vc",
         "stage": "Medium",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "present",
-        "description": "Newlin.vc is a venture capital firm that invests in companies at the medium stage of development, focusing on technology and innovation across various sectors.  They have a lower deal flow, suggesting a more selective investment approach.",
+        "creation date": "Present",
+        "description": "Newlin.vc is a venture capital firm that focuses on mid-stage investments.  They have a portfolio of companies spanning various sectors, showcasing a diversified investment strategy.",
         "markets": [
             "SaaS",
             "Fintech",
-            "AI"
+            "Healthtech"
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "10%",
-            "early": "30%",
-            "growth": "60%"
-        }
+            "seed": "15%",
+            "early": "35%",
+            "growth": "50%"
+        },
+        "market value": "150M$"
     },
     "Kube VC": {
         "company name": "Kube VC",
@@ -2106,37 +2224,38 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "Present",
-        "description": "Kube VC is a venture capital firm that invests in early-stage startups, focusing on pre-seed and seed rounds.  Their portfolio includes companies in the SaaS, Fintech and AI sectors. They have a strong focus on supporting innovative businesses with high growth potential.",
+        "description": "Kube VC is a venture capital firm that invests in early-stage startups, primarily focusing on pre-seed and seed rounds.  Their portfolio companies are likely to be in the technology sector, potentially encompassing SaaS, AI, or Fintech.",
         "markets": [
             "SaaS",
-            "Fintech",
-            "AI"
+            "AI",
+            "Fintech"
         ],
         "follow on rate": "15%",
         "investment by stage": {
-            "seed": "80%",
-            "early": "15%",
+            "seed": "85%",
+            "early": "10%",
             "growth": "5%"
-        }
+        },
+        "market value": "20M$"
     },
     "Prithvi Ventures": {
         "company name": "Prithvi Ventures",
         "stage": "Medium",
         "dealsflow": "Low",
         "region": "India",
-        "creation date": "05-2019",
-        "description": "Prithvi Ventures is an Indian venture capital firm that invests in growth-stage companies across various sectors including technology, healthcare, and consumer goods.  They focus on companies with strong potential for expansion in the Indian market.",
+        "creation date": "12-2024",
+        "description": "Prithvi Ventures is a pioneering company in AI.",
         "markets": [
-            "Technology",
-            "Healthcare",
-            "Consumer Goods"
+            "Healthtech",
+            "AI"
         ],
-        "follow on rate": "55%",
+        "follow on rate": "12%",
         "investment by stage": {
-            "seed": "10%",
-            "early": "35%",
-            "growth": "55%"
-        }
+            "seed": "50%",
+            "early": "27%",
+            "growth": "20%"
+        },
+        "market value": "78$"
     },
     "Evolutionary Ventures": {
         "company name": "Evolutionary Ventures",
@@ -2144,18 +2263,19 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "03-2023",
-        "description": "Evolutionary Ventures is a venture capital firm that invests in early-stage companies, focusing on innovative technologies and sustainable solutions.  They are currently concentrating on Pre-Seed investments and have a portfolio with a focus on positive impact.",
+        "description": "Evolutionary Ventures is a newly established venture capital firm focusing on pre-seed investments in innovative startups across various sectors, including but not limited to technology, healthcare and consumer goods.  They have a keen interest in supporting early-stage companies with high-growth potential and disruptive business models.",
         "markets": [
-            "Cleantech",
-            "AI",
-            "Healthtech"
+            "Technology",
+            "Healthcare",
+            "Consumer Goods"
         ],
         "follow on rate": "15%",
         "investment by stage": {
-            "seed": "85%",
-            "early": "10%",
+            "seed": "80%",
+            "early": "15%",
             "growth": "5%"
-        }
+        },
+        "market value": "15M$"
     },
     "Great Circle Ventures": {
         "company name": "Great Circle Ventures",
@@ -2163,26 +2283,27 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "03-2022",
-        "description": "Great Circle Ventures is a venture capital firm that invests in growth-stage companies across various sectors, including SaaS, Fintech, and Healthcare. They have a focus on companies with scalable business models and strong management teams.  They are known for their long-term investment approach and support of portfolio companies.",
+        "description": "Great Circle Ventures is a venture capital firm that invests in companies at the medium stage of development, focusing on various sectors such as SaaS, Fintech, and Healthtech.  They have a proven track record of identifying promising businesses with strong growth potential.",
         "markets": [
             "SaaS",
             "Fintech",
             "Healthtech"
         ],
-        "follow on rate": "55%",
+        "follow on rate": "40%",
         "investment by stage": {
             "seed": "15%",
-            "early": "30%",
-            "growth": "55%"
-        }
+            "early": "60%",
+            "growth": "25%"
+        },
+        "market value": "150M$"
     },
     "Calculated Leap Ventures": {
         "company name": "Calculated Leap Ventures",
         "stage": "Series A",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "Present",
-        "description": "Calculated Leap Ventures is a venture capital firm that invests in Series A companies, focusing on innovative startups in the technology sector.  They have a particular interest in companies with high growth potential and scalable business models.",
+        "creation date": "03-2022",
+        "description": "Calculated Leap Ventures is a venture capital firm that invests in Series A companies with a focus on technology and innovation.  They are particularly interested in companies developing innovative solutions in the SaaS and Fintech sectors.",
         "markets": [
             "SaaS",
             "Fintech"
@@ -2192,15 +2313,16 @@
             "seed": "15%",
             "early": "60%",
             "growth": "25%"
-        }
+        },
+        "market value": "120M$"
     },
     "Tech Investor Club - Syndicate": {
         "company name": "Tech Investor Club - Syndicate",
         "stage": "Medium",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "01-2022",
-        "description": "Tech Investor Club - Syndicate is a venture capital firm that invests in technology companies across various sectors.  They focus on companies in the growth stage and have a moderate deal flow.",
+        "creation date": "03-2022",
+        "description": "Tech Investor Club - Syndicate is a venture capital firm that invests in technology companies at various stages of development, with a particular focus on Series A and B rounds.  Their investments span multiple sectors, including SaaS, Fintech, and AI.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -2208,18 +2330,19 @@
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "15%",
-            "early": "35%",
-            "growth": "50%"
-        }
+            "seed": "10%",
+            "early": "60%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
     },
     "DayDream Ventures": {
         "company name": "DayDream Ventures",
         "stage": "Seed+",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "03-2022",
-        "description": "DayDream Ventures is a seed-stage venture capital firm focusing on early-stage investments in innovative startups across various sectors including SaaS, Fintech, and AI. They are based in the USA and have a portfolio of companies with high growth potential.",
+        "creation date": "01-2022",
+        "description": "DayDream Ventures is a seed-stage venture capital firm focusing on early-stage investments in promising startups. Their portfolio includes companies in diverse sectors such as SaaS, Fintech, and AI, with a particular interest in innovative solutions and high-growth potential.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -2228,9 +2351,10 @@
         "follow on rate": "25%",
         "investment by stage": {
             "seed": "70%",
-            "early": "20%",
-            "growth": "10%"
-        }
+            "early": "25%",
+            "growth": "5%"
+        },
+        "market value": "55M$"
     },
     "Ten31 Bitcoin and Freedom Tech Syndicate": {
         "company name": "Ten31 Bitcoin and Freedom Tech Syndicate",
@@ -2238,82 +2362,161 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "Present",
-        "description": "Ten31 Bitcoin and Freedom Tech Syndicate is a mid-stage investment firm concentrating on companies within the Fintech and blockchain sectors.  They are known for supporting companies with innovative solutions in cryptocurrency and decentralized technologies.",
+        "description": "Ten31 Bitcoin and Freedom Tech Syndicate is a syndicate investing in medium-stage companies within the Fintech and blockchain sectors, focusing on innovative solutions and technologies.  They demonstrate a measured investment approach.",
         "markets": [
             "Fintech",
-            "Blockchain",
-            "Cryptocurrency"
+            "Blockchain"
         ],
         "follow on rate": "40%",
         "investment by stage": {
-            "seed": "15%",
-            "early": "55%",
-            "growth": "30%"
-        }
+            "seed": "10%",
+            "early": "30%",
+            "growth": "60%"
+        },
+        "market value": "150M$"
     },
     "TDV Partners (US) | Ujwal's Syndicate": {
         "company name": "TDV Partners (US) | Ujwal's Syndicate",
         "stage": "Seed+",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "Present",
-        "description": "TDV Partners (US) | Ujwal's Syndicate is a venture capital firm focusing on Seed+ investments in early-stage companies.  They likely concentrate on  high-growth potential startups in technology sectors.",
+        "creation date": "01-2022",
+        "description": "TDV Partners (US) | Ujwal's Syndicate is a venture capital firm that invests in seed and Series A startups across various sectors, including technology, healthcare, and consumer goods.  They focus on companies with strong potential for growth and innovation.",
         "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
+            "Technology",
+            "Healthcare",
+            "Consumer Goods"
         ],
-        "follow on rate": "20%",
+        "follow on rate": "25%",
         "investment by stage": {
             "seed": "70%",
-            "early": "25%",
-            "growth": "5%"
-        }
+            "early": "20%",
+            "growth": "10%"
+        },
+        "market value": "50M$"
     },
     "Nomad Ventures": {
         "company name": "Nomad Ventures",
         "stage": "Medium",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "07-2022",
-        "description": "Nomad Ventures is a venture capital firm that invests in companies at various stages of development, focusing on technology and innovative solutions.  They have a particular interest in businesses scaling rapidly and are active across multiple sectors.",
+        "creation date": "02-2022",
+        "description": "Nomad Ventures is a venture capital firm that invests in technology companies at different stages of growth, focusing on SaaS and Fintech solutions. Their investments target companies with innovative products and strong market potential.",
         "markets": [
             "SaaS",
-            "Fintech",
-            "AI"
+            "Fintech"
         ],
         "follow on rate": "40%",
         "investment by stage": {
             "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
+            "early": "50%",
+            "growth": "20%"
+        },
+        "market value": "150M$"
     },
     "GoodTech Electric": {
         "company name": "GoodTech Electric",
         "stage": "Seed+",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "01-2022",
-        "description": "GoodTech Electric is a seed+ stage company focused on developing innovative electric vehicle technologies.  They are currently focused on securing seed funding to support further R&D and initial product launches.",
+        "creation date": "03-2023",
+        "description": "GoodTech Electric is a seed+ stage company focused on developing innovative electric vehicle technologies.  They are concentrating on improving battery life and charging infrastructure. ",
         "markets": [
             "Cleantech",
             "Automotive"
         ],
         "follow on rate": "20%",
         "investment by stage": {
-            "seed": "75%",
+            "seed": "70%",
             "early": "20%",
-            "growth": "5%"
-        }
+            "growth": "10%"
+        },
+        "market value": "50M$"
     },
     "Network Ventures Syndicate": {
         "company name": "Network Ventures Syndicate",
         "stage": "Medium",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "03-2022",
-        "description": "Network Ventures Syndicate is a venture capital firm that invests in various sectors, including SaaS, Fintech, and HealthTech.  They focus on companies in the growth stage and have a portfolio of promising companies with high-growth potential.",
+        "creation date": "03-2019",
+        "description": "Network Ventures Syndicate is a mid-stage investment firm focusing on growth-stage companies within the SaaS and Fintech sectors in the USA.  They have a history of successful investments in companies demonstrating strong market traction.",
+        "markets": [
+            "SaaS",
+            "Fintech"
+        ],
+        "follow on rate": "55%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "30%",
+            "growth": "55%"
+        },
+        "market value": "350M$"
+    },
+    "Ayuh Ventures": {
+        "company name": "Ayuh Ventures",
+        "stage": "Seed",
+        "dealsflow": "Low",
+        "region": "India",
+        "creation date": "Present",
+        "description": "Ayuh Ventures is a seed-stage venture capital firm that invests in early-stage startups.  They are focused on the Indian market and have a particular interest in companies developing innovative solutions.",
+        "markets": [
+            "Fintech",
+            "Healthtech",
+            "SaaS"
+        ],
+        "follow on rate": "20%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Maya Bakhai": {
+        "company name": "Maya Bakhai",
+        "stage": "Medium",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Maya Bakhai is a mid-stage investment firm focusing on companies in the SaaS and Fintech sectors.  They have a moderate deal flow and concentrate on companies with proven traction.",
+        "markets": [
+            "SaaS",
+            "Fintech"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "10%",
+            "early": "60%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
+    },
+    "Atman": {
+        "company name": "Atman",
+        "stage": "Seed",
+        "dealsflow": "Low",
+        "region": "India",
+        "creation date": "Present",
+        "description": "Atman is a seed-stage investment firm focusing on early-stage startups within the Indian market.  They concentrate their investments in companies showing potential within the technology sector, particularly those leveraging AI and SaaS solutions.",
+        "markets": [
+            "AI",
+            "SaaS"
+        ],
+        "follow on rate": "20%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Kindergarten Ventures": {
+        "company name": "Kindergarten Ventures",
+        "stage": "Medium",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "02-2022",
+        "description": "Kindergarten Ventures is a venture capital firm that invests in mid-stage companies across various sectors including SaaS, Fintech, and HealthTech.  They focus on companies demonstrating sustainable growth and strong market potential.",
         "markets": [
             "SaaS",
             "Fintech",
@@ -2324,79 +2527,8 @@
             "seed": "15%",
             "early": "30%",
             "growth": "55%"
-        }
-    },
-    "Ayuh Ventures": {
-        "company name": "Ayuh Ventures",
-        "stage": "Seed",
-        "dealsflow": "Low",
-        "region": "India",
-        "creation date": "01-2022",
-        "description": "Ayuh Ventures is a seed-stage venture capital firm that invests in early-stage startups across various sectors, with a focus on the Indian market.  They are known for supporting innovative solutions.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Maya Bakhai": {
-        "company name": "Maya Bakhai",
-        "stage": "Medium",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "present",
-        "description": "Maya Bakhai is a mid-stage investment firm focusing on companies in the SaaS and Fintech sectors, with a particular interest in innovative solutions for business processes.  They have a moderate deal flow and a portfolio of companies showing moderate growth.",
-        "markets": [
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "10%",
-            "early": "60%",
-            "growth": "30%"
-        }
-    },
-    "Atman": {
-        "company name": "Atman",
-        "stage": "Seed",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "01-2023",
-        "description": "Atman is a seed-stage company focusing on early-stage investments with a low deal flow, possibly concentrating on a niche market within the USA.  More information is needed to provide a more detailed description.",
-        "markets": [
-            "SaaS"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "80%",
-            "early": "15%",
-            "growth": "5%"
-        }
-    },
-    "Kindergarten Ventures": {
-        "company name": "Kindergarten Ventures",
-        "stage": "Medium",
-        "dealsflow": "Low",
-        "region": "UK",
-        "creation date": "12-2024",
-        "description": "Kindergarten Ventures is a pioneering company in AI.",
-        "markets": [
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "17%",
-        "investment by stage": {
-            "seed": "65%",
-            "early": "29%",
-            "growth": "7%"
-        }
+        },
+        "market value": "150M$"
     },
     "Textbook Ventures - Founders from Columbia, Cornell, and NYU": {
         "company name": "Textbook Ventures - Founders from Columbia, Cornell, and NYU",
@@ -2404,269 +2536,9 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "Present",
-        "description": "Textbook Ventures is a venture capital firm founded by individuals from prestigious universities like Columbia, Cornell, and NYU.  They focus on Seed+ stage investments, concentrating on companies with strong potential in various sectors.",
+        "description": "Textbook Ventures is a venture capital firm founded by individuals from prestigious universities, focusing on seed+ investments.  They likely invest across various sectors given the diverse founder backgrounds, possibly with an emphasis on technology or companies with strong academic ties.",
         "markets": [
             "Technology",
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "70%",
-            "early": "20%",
-            "growth": "10%"
-        }
-    },
-    "Arkstons Capital": {
-        "company name": "Arkstons Capital",
-        "stage": "Medium",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "Arkstons Capital is a mid-stage investment firm focusing on growth-oriented companies in the technology sector, particularly within SaaS, Fintech, and AI.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "55%",
-        "investment by stage": {
-            "seed": "15%",
-            "early": "30%",
-            "growth": "55%"
-        }
-    },
-    "Sunflower Fund": {
-        "company name": "Sunflower Fund",
-        "stage": "Series B",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "03-2015",
-        "description": "Sunflower Fund is a venture capital firm that invests in growth-stage companies.  They focus on companies in the SaaS and Fintech sectors with a proven track record and strong potential for scaling.",
-        "markets": [
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "60%",
-        "investment by stage": {
-            "seed": "10%",
-            "early": "20%",
-            "growth": "70%"
-        }
-    },
-    "Caisson Capital Ventures": {
-        "company name": "Caisson Capital Ventures",
-        "stage": "Medium",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "present",
-        "description": "Caisson Capital Ventures is a venture capital firm that invests in companies at various stages of development, with a focus on the technology and healthcare sectors.  Their investments span diverse markets and include both early and growth-stage companies.",
-        "markets": [
-            "Technology",
-            "Healthcare",
-            "SaaS"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "30%",
-            "early": "40%",
-            "growth": "30%"
-        }
-    },
-    "Ollie Howie": {
-        "company name": "Ollie Howie",
-        "stage": "Seed",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Ollie Howie is a seed-stage venture capital firm focusing on early-stage investments.  They are likely concentrated in a specific sector, although further information is needed to specify.",
-        "markets": [
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Potluck Ventures (backing #AAPI founders)": {
-        "company name": "Potluck Ventures (backing #AAPI founders)",
-        "stage": "Medium",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "01-2020",
-        "description": "Potluck Ventures is a venture capital firm that invests in companies founded by Asian-American and Pacific Islander entrepreneurs.  They focus on a variety of sectors including SaaS, Fintech, and Healthtech, and have a medium stage investment strategy.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "30%",
-            "early": "50%",
-            "growth": "20%"
-        }
-    },
-    "Mute Ventures": {
-        "company name": "Mute Ventures",
-        "stage": "Pre-Seed",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "03-2023",
-        "description": "Mute Ventures is a venture capital firm that invests in early-stage startups.  They focus on pre-seed investments and have a portfolio concentrated in the SaaS and Fintech sectors.",
-        "markets": [
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "15%",
-        "investment by stage": {
-            "seed": "80%",
-            "early": "15%",
-            "growth": "5%"
-        }
-    },
-    "Gonio Ventures": {
-        "company name": "Gonio Ventures",
-        "stage": "Medium",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Gonio Ventures is a venture capital firm that invests in companies at the medium stage across various sectors.  They have a focus on companies with strong growth potential and typically invest in the technology and consumer sectors.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "10%",
-            "early": "30%",
-            "growth": "60%"
-        }
-    },
-    "Youth Development Fund": {
-        "company name": "Youth Development Fund",
-        "stage": "Series A",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "Youth Development Fund is a venture capital firm that invests in early and growth-stage companies focused on youth empowerment and development.  Their investments span various sectors including EdTech, social impact, and community development initiatives.",
-        "markets": [
-            "EdTech",
-            "Social Impact"
-        ],
-        "follow on rate": "45%",
-        "investment by stage": {
-            "seed": "15%",
-            "early": "60%",
-            "growth": "25%"
-        }
-    },
-    "Tremis Capital US": {
-        "company name": "Tremis Capital US",
-        "stage": "Medium",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Tremis Capital US is a mid-stage investment firm focusing on technology companies across various sectors.  They have a moderate deal flow and invest in companies showing strong growth potential.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
-        ],
-        "follow on rate": "40%",
-        "investment by stage": {
-            "seed": "15%",
-            "early": "55%",
-            "growth": "30%"
-        }
-    },
-    "AdValorem Syndicate": {
-        "company name": "AdValorem Syndicate",
-        "stage": "Seed",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "03-2022",
-        "description": "AdValorem Syndicate is a seed-stage investment firm focusing on early-stage startups with high-growth potential in various sectors, including SaaS, Fintech, and AI.  They concentrate on providing funding and mentorship to promising ventures.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Rob Hanna / Enduring Ventures": {
-        "company name": "Rob Hanna / Enduring Ventures",
-        "stage": "Seed",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "01-2022",
-        "description": "Rob Hanna / Enduring Ventures is a seed-stage venture capital firm focusing on early-stage investments in technology companies.  They have a particular interest in startups developing innovative solutions within the SaaS and Fintech sectors, with a focus on the US market.",
-        "markets": [
-            "SaaS",
-            "Fintech"
-        ],
-        "follow on rate": "20%",
-        "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
-    },
-    "Intbox Ventures": {
-        "company name": "Intbox Ventures",
-        "stage": "Pre-Seed",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Intbox Ventures is a venture capital firm that invests in early-stage startups, focusing on pre-seed funding rounds.  They are known for supporting innovative companies across various sectors.",
-        "markets": [
-            "SaaS",
-            "Fintech",
-            "AI"
-        ],
-        "follow on rate": "10%",
-        "investment by stage": {
-            "seed": "80%",
-            "early": "10%",
-            "growth": "10%"
-        }
-    },
-    "TopazProp Ventures": {
-        "company name": "TopazProp Ventures",
-        "stage": "Pre-Seed",
-        "dealsflow": "Low",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "TopazProp Ventures is a venture capital firm that invests in early-stage real estate technology companies.  They focus on pre-seed and seed investments and have a portfolio of innovative proptech startups.",
-        "markets": [
-            "Real Estate Technology",
-            "Fintech",
-            "SaaS"
-        ],
-        "follow on rate": "15%",
-        "investment by stage": {
-            "seed": "80%",
-            "early": "15%",
-            "growth": "5%"
-        }
-    },
-    "Melzi VC": {
-        "company name": "Melzi VC",
-        "stage": "Seed+",
-        "dealsflow": "Low",
-        "region": "Europe",
-        "creation date": "01-2022",
-        "description": "Melzi VC is a venture capital firm that invests in early-stage startups, focusing on Seed+ rounds.  They have a particular interest in companies developing innovative solutions within the SaaS and Fintech sectors across Europe.",
-        "markets": [
             "SaaS",
             "Fintech"
         ],
@@ -2675,17 +2547,291 @@
             "seed": "60%",
             "early": "30%",
             "growth": "10%"
-        }
+        },
+        "market value": "50M$"
+    },
+    "Arkstons Capital": {
+        "company name": "Arkstons Capital",
+        "stage": "Medium",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "03-2022",
+        "description": "Arkstons Capital is a mid-stage investment firm focusing on companies in the SaaS and Fintech sectors.  They have a moderate deal flow and invest in companies showing strong growth potential.",
+        "markets": [
+            "SaaS",
+            "Fintech"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "35%",
+            "growth": "50%"
+        },
+        "market value": "150M$"
+    },
+    "Sunflower Fund": {
+        "company name": "Sunflower Fund",
+        "stage": "Series B",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Sunflower Fund is a venture capital firm that invests in growth-stage companies.  They have a particular focus on technology and have a portfolio of companies in various sectors.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "Healthtech"
+        ],
+        "follow on rate": "55%",
+        "investment by stage": {
+            "seed": "10%",
+            "early": "35%",
+            "growth": "55%"
+        },
+        "market value": "500M$"
+    },
+    "Caisson Capital Ventures": {
+        "company name": "Caisson Capital Ventures",
+        "stage": "Medium",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Caisson Capital Ventures is a venture capital firm that invests in companies at various stages of growth, focusing on technology and innovative solutions.  Their investments span multiple sectors, and they have a history of supporting promising businesses in their expansion. ",
+        "markets": [
+            "Technology",
+            "SaaS",
+            "Fintech"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "30%",
+            "early": "40%",
+            "growth": "30%"
+        },
+        "market value": "150M$"
+    },
+    "Ollie Howie": {
+        "company name": "Ollie Howie",
+        "stage": "Seed",
+        "dealsflow": "Low",
+        "region": "UK",
+        "creation date": "Present",
+        "description": "Ollie Howie is a seed-stage investment firm focusing on early-stage startups.  They are likely concentrated in the UK market, and may invest across various sectors, such as SaaS, Fintech, or Healthtech, depending on their specific portfolio companies.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "Healthtech"
+        ],
+        "follow on rate": "20%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "5M$"
+    },
+    "Potluck Ventures (backing #AAPI founders)": {
+        "company name": "Potluck Ventures (backing #AAPI founders)",
+        "stage": "Medium",
+        "dealsflow": "Low",
+        "region": "India",
+        "creation date": "12-2024",
+        "description": "Potluck Ventures (backing #AAPI founders) is a pioneering company in Fintech.",
+        "markets": [
+            "AI",
+            "Fintech"
+        ],
+        "follow on rate": "35%",
+        "investment by stage": {
+            "seed": "60%",
+            "early": "12%",
+            "growth": "18%"
+        },
+        "market value": "143$"
+    },
+    "Mute Ventures": {
+        "company name": "Mute Ventures",
+        "stage": "Pre-Seed",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "03-2023",
+        "description": "Mute Ventures is a newly established venture capital firm focusing on pre-seed investments in innovative startups across various sectors including SaaS, Fintech and AI.  They are based in the USA and prioritize companies with high-growth potential.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "15%",
+        "investment by stage": {
+            "seed": "80%",
+            "early": "15%",
+            "growth": "5%"
+        },
+        "market value": "15M$"
+    },
+    "Gonio Ventures": {
+        "company name": "Gonio Ventures",
+        "stage": "Medium",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "01-2015",
+        "description": "Gonio Ventures is a venture capital firm that invests in growth-stage companies across various sectors including SaaS, Fintech, and Healthtech.  They have a strong focus on companies with disruptive technologies and scalable business models.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "Healthtech"
+        ],
+        "follow on rate": "55%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "30%",
+            "growth": "55%"
+        },
+        "market value": "500M$"
+    },
+    "Youth Development Fund": {
+        "company name": "Youth Development Fund",
+        "stage": "Series A",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "01-2022",
+        "description": "Youth Development Fund is a venture capital firm that invests in early and growth-stage companies focused on improving youth development programs and initiatives. They typically invest in companies in the education technology and social impact sectors.",
+        "markets": [
+            "EdTech",
+            "Social Impact"
+        ],
+        "follow on rate": "40%",
+        "investment by stage": {
+            "seed": "30%",
+            "early": "60%",
+            "growth": "10%"
+        },
+        "market value": "95M$"
+    },
+    "Tremis Capital US": {
+        "company name": "Tremis Capital US",
+        "stage": "Medium",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "01-2022",
+        "description": "Tremis Capital US is a mid-stage investment firm focusing on technology companies in the US market.  They invest across various sectors including SaaS, Fintech, and AI, supporting companies' growth and expansion.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "AI"
+        ],
+        "follow on rate": "55%",
+        "investment by stage": {
+            "seed": "15%",
+            "early": "30%",
+            "growth": "55%"
+        },
+        "market value": "250M$"
+    },
+    "AdValorem Syndicate": {
+        "company name": "AdValorem Syndicate",
+        "stage": "Seed",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "01-2022",
+        "description": "AdValorem Syndicate is a seed-stage venture capital firm focusing on early-stage investments in technology companies.  They have a particular interest in SaaS and Fintech solutions.",
+        "markets": [
+            "SaaS",
+            "Fintech"
+        ],
+        "follow on rate": "20%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Rob Hanna / Enduring Ventures": {
+        "company name": "Rob Hanna / Enduring Ventures",
+        "stage": "Seed",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Rob Hanna / Enduring Ventures is a seed-stage venture capital firm that invests in early-stage companies across various sectors.  Their focus is on supporting innovative businesses with high-growth potential.",
+        "markets": [
+            "SaaS",
+            "Fintech",
+            "Healthtech"
+        ],
+        "follow on rate": "20%",
+        "investment by stage": {
+            "seed": "75%",
+            "early": "20%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
+    },
+    "Intbox Ventures": {
+        "company name": "Intbox Ventures",
+        "stage": "Pre-Seed",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Intbox Ventures is a venture capital firm that invests in early-stage startups, focusing on the pre-seed stage.  They have a portfolio of companies across various sectors, including technology and potentially others.",
+        "markets": [
+            "Technology"
+        ],
+        "follow on rate": null,
+        "investment by stage": {
+            "seed": "85%",
+            "early": "10%",
+            "growth": "5%"
+        },
+        "market value": "15M$"
+    },
+    "TopazProp Ventures": {
+        "company name": "TopazProp Ventures",
+        "stage": "Pre-Seed",
+        "dealsflow": "Low",
+        "region": "USA",
+        "creation date": "03-2023",
+        "description": "TopazProp Ventures is a new venture capital firm focusing on real estate technology and proptech startups.  They are currently making investments in pre-seed companies showing significant potential within the market.",
+        "markets": [
+            "Real Estate",
+            "Technology",
+            "Fintech"
+        ],
+        "follow on rate": "10%",
+        "investment by stage": {
+            "seed": "80%",
+            "early": "15%",
+            "growth": "5%"
+        },
+        "market value": "15M$"
+    },
+    "Melzi VC": {
+        "company name": "Melzi VC",
+        "stage": "Seed+",
+        "dealsflow": "Low",
+        "region": "Europe",
+        "creation date": "01-2022",
+        "description": "Melzi VC is a venture capital firm that invests in seed and Series A startups, focusing on the European market.  They have a particular interest in companies developing innovative solutions in the SaaS and Fintech sectors.",
+        "markets": [
+            "SaaS",
+            "Fintech"
+        ],
+        "follow on rate": "25%",
+        "investment by stage": {
+            "seed": "70%",
+            "early": "28%",
+            "growth": "2%"
+        },
+        "market value": "50M$"
     },
     "Majic Capital": {
         "company name": "Majic Capital",
         "stage": "Seed+",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "03-2023",
-        "description": "Majic Capital is a seed-stage venture capital firm focusing on early-stage investments in technology companies.  They are particularly interested in startups within the AI and SaaS sectors, with a regional focus on the US market. ",
+        "creation date": "Present",
+        "description": "Majic Capital is a seed-stage investment firm focusing on early-stage companies with high-growth potential in diverse sectors like Fintech and SaaS.  They are known for supporting innovative solutions in the US market.",
         "markets": [
-            "AI",
+            "Fintech",
             "SaaS"
         ],
         "follow on rate": "20%",
@@ -2693,7 +2839,8 @@
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "SUM Ventures": {
         "company name": "SUM Ventures",
@@ -2701,10 +2848,10 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "01-2022",
-        "description": "SUM Ventures is a seed-stage venture capital firm focusing on investments in early-stage startups across various sectors, including SaaS, Fintech, and AI.  They have a strong network and are known for supporting innovative businesses with high growth potential.",
+        "description": "SUM Ventures is a seed-stage venture capital firm that invests in early-stage startups.  They focus on a range of sectors, with a particular interest in companies with strong potential for growth and scalability.",
         "markets": [
-            "SaaS",
             "Fintech",
+            "SaaS",
             "AI"
         ],
         "follow on rate": "20%",
@@ -2712,26 +2859,26 @@
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "The Mycelorium": {
         "company name": "The Mycelorium",
         "stage": "Seed",
         "dealsflow": "Low",
         "region": "USA",
-        "creation date": "03-2023",
-        "description": "The Mycelorium is a seed-stage venture capital firm focusing on early-stage investments in sustainable technology and biotechnology companies.  They are particularly interested in innovative solutions addressing environmental challenges.",
+        "creation date": "Present",
+        "description": "The Mycelorium is a seed-stage company with a low deal flow, likely focused on a niche market.  More information is needed to provide a detailed description.",
         "markets": [
-            "Biotechnology",
-            "Cleantech",
-            "Sustainable Tech"
+            "Unspecified"
         ],
         "follow on rate": "20%",
         "investment by stage": {
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "10M$"
     },
     "Cavallon AI": {
         "company name": "Cavallon AI",
@@ -2739,17 +2886,17 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "Present",
-        "description": "Cavallon AI is a seed-stage company focused on developing cutting-edge AI solutions.  Their work likely centers on innovative applications of artificial intelligence.",
+        "description": "Cavallon AI is a seed-stage company focused on developing cutting-edge AI solutions.  Their initial products are likely focused on a niche market and are currently seeking seed funding to fuel early development and market entry.",
         "markets": [
-            "AI",
-            "SaaS"
+            "AI"
         ],
         "follow on rate": "20%",
         "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
+            "seed": "73%",
+            "early": "26%",
+            "growth": "1%"
+        },
+        "market value": "15M$"
     },
     "Storied Ventures": {
         "company name": "Storied Ventures",
@@ -2757,56 +2904,58 @@
         "dealsflow": "Low",
         "region": "USA",
         "creation date": "03-2022",
-        "description": "Storied Ventures is a seed-stage venture capital firm that invests in early-stage startups.  They focus on companies with strong narratives and innovative products across diverse sectors.",
+        "description": "Storied Ventures is a seed-stage venture capital firm that invests in early-stage startups across various sectors, including technology, consumer goods, and healthcare. They focus on companies with strong potential for growth and innovation.",
         "markets": [
-            "SaaS",
-            "Fintech",
-            "Healthtech"
+            "Technology",
+            "Consumer Goods",
+            "Healthcare"
         ],
         "follow on rate": "20%",
         "investment by stage": {
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "Sober Capital": {
         "company name": "Sober Capital",
         "stage": "Seed",
         "dealsflow": "New",
-        "region": "USA",
+        "region": "Europe",
         "creation date": "Present",
-        "description": "Sober Capital is a new seed-stage investment firm focusing on early-stage companies.  They are likely to invest across various sectors, focusing on high-growth potential.",
+        "description": "Sober Capital is a new seed-stage investment firm focusing on early-stage companies.  They are likely to concentrate on a specific sector or region in Europe, details of which are currently unavailable.",
         "markets": [
             "SaaS",
-            "Fintech",
-            "Healthtech"
+            "Fintech"
         ],
         "follow on rate": "20%",
         "investment by stage": {
-            "seed": "85%",
-            "early": "10%",
+            "seed": "80%",
+            "early": "15%",
             "growth": "5%"
-        }
+        },
+        "market value": "10M$"
     },
     "Galactic Ventures": {
         "company name": "Galactic Ventures",
         "stage": "Seed+",
         "dealsflow": "New",
         "region": "USA",
-        "creation date": "03-2023",
-        "description": "Galactic Ventures is a new venture capital firm focusing on seed and Series A investments in space technology and related sectors.  They are particularly interested in companies developing innovative solutions for space exploration, satellite technology, and related fields.",
+        "creation date": "Present",
+        "description": "Galactic Ventures is a newly established venture capital firm focusing on Seed+ stage investments.  They are likely targeting companies in high-growth sectors such as SaaS, Fintech, and AI, given the current market trends.",
         "markets": [
-            "Aerospace",
-            "AI",
-            "SaaS"
+            "SaaS",
+            "Fintech",
+            "AI"
         ],
-        "follow on rate": "null",
+        "follow on rate": null,
         "investment by stage": {
             "seed": "80%",
             "early": "15%",
             "growth": "5%"
-        }
+        },
+        "market value": "15M$"
     },
     "Maverick Ventures": {
         "company name": "Maverick Ventures",
@@ -2814,18 +2963,19 @@
         "dealsflow": "New",
         "region": "USA",
         "creation date": "Present",
-        "description": "Maverick Ventures is a venture capital firm that invests in early-stage companies.  Given their seed stage focus, they likely concentrate on innovative startups with high-growth potential, possibly across diverse sectors like SaaS, Fintech, or emerging technologies.",
+        "description": "Maverick Ventures is a new venture capital firm focusing on seed-stage investments.  They are likely targeting companies in high-growth technology sectors.",
         "markets": [
+            "Technology",
             "SaaS",
-            "Fintech",
-            "AI"
+            "Fintech"
         ],
-        "follow on rate": "0%",
+        "follow on rate": null,
         "investment by stage": {
             "seed": "90%",
-            "early": "10%",
-            "growth": "0%"
-        }
+            "early": "5%",
+            "growth": "5%"
+        },
+        "market value": "10M$"
     },
     "Riceberg Ventures": {
         "company name": "Riceberg Ventures",
@@ -2833,55 +2983,58 @@
         "dealsflow": "New",
         "region": "USA",
         "creation date": "Present",
-        "description": "Riceberg Ventures is a new seed-stage venture capital firm focusing on early-stage investments.  They are likely targeting companies in the technology sector, given the current market trends.",
+        "description": "Riceberg Ventures is a new venture capital firm focusing on seed-stage investments.  They are likely to concentrate on early-stage companies with high-growth potential, potentially in technology sectors such as SaaS, Fintech, or AI.",
         "markets": [
             "SaaS",
             "Fintech",
             "AI"
         ],
-        "follow on rate": "null",
+        "follow on rate": "20%",
         "investment by stage": {
-            "seed": "90%",
-            "early": "5%",
+            "seed": "75%",
+            "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "10M$"
     },
     "Hero's Journey Capital": {
         "company name": "Hero's Journey Capital",
         "stage": "Pre-Seed",
         "dealsflow": "New",
-        "region": "USA",
-        "creation date": "Present",
-        "description": "Hero's Journey Capital is a venture capital firm that invests in pre-seed stage startups.  They focus on companies with innovative ideas and strong potential for growth in various sectors.",
+        "region": "India",
+        "creation date": "12-2024",
+        "description": "Hero's Journey Capital is a pioneering company in Fintech.",
         "markets": [
-            "SaaS",
-            "Fintech",
+            "AI",
             "Healthtech"
         ],
-        "follow on rate": null,
+        "follow on rate": "37%",
         "investment by stage": {
-            "seed": "85%",
-            "early": "10%",
-            "growth": "5%"
-        }
+            "seed": "66%",
+            "early": "23%",
+            "growth": "13%"
+        },
+        "market value": "120$"
     },
     "Ikigai Syndicate": {
         "company name": "Ikigai Syndicate",
         "stage": "Seed",
         "dealsflow": "New",
-        "region": "Europe",
-        "creation date": "12-2024",
-        "description": "Ikigai Syndicate is a pioneering company in SaaS.",
+        "region": "USA",
+        "creation date": "Present",
+        "description": "Ikigai Syndicate is a venture capital firm that invests in early-stage companies.  They focus on seed-stage investments and have a particular interest in innovative technologies and business models.",
         "markets": [
+            "SaaS",
             "Fintech",
-            "SaaS"
+            "AI"
         ],
-        "follow on rate": "75%",
+        "follow on rate": "20%",
         "investment by stage": {
-            "seed": "69%",
-            "early": "12%",
-            "growth": "16%"
-        }
+            "seed": "80%",
+            "early": "15%",
+            "growth": "5%"
+        },
+        "market value": "50M$"
     },
     "Meandros Ventures": {
         "company name": "Meandros Ventures",
@@ -2889,17 +3042,19 @@
         "dealsflow": "New",
         "region": "Europe",
         "creation date": "Present",
-        "description": "Meandros Ventures is a new venture capital firm focusing on seed-stage investments in European technology companies.  They are likely to concentrate on high-growth potential startups within the SaaS and Fintech sectors.",
+        "description": "Meandros Ventures is a new venture capital firm focusing on seed-stage investments in European startups.  They are likely to invest across a range of sectors showing high growth potential.",
         "markets": [
             "SaaS",
-            "Fintech"
+            "Fintech",
+            "Healthtech"
         ],
         "follow on rate": "20%",
         "investment by stage": {
             "seed": "85%",
             "early": "10%",
             "growth": "5%"
-        }
+        },
+        "market value": "15M$"
     },
     "co/fund": {
         "company name": "co/fund",
@@ -2907,16 +3062,19 @@
         "dealsflow": "New",
         "region": "USA",
         "creation date": "Present",
-        "description": "co/fund is a new seed-stage investment firm likely focusing on early-stage startups.  More information is needed to provide a detailed description of their focus and investment areas.",
+        "description": "co/fund is a new seed-stage investment fund focusing on early-stage startups.  They are likely to invest across a range of sectors, given their early stage and broad focus.",
         "markets": [
-            "Unspecified"
+            "SaaS",
+            "Fintech",
+            "AI"
         ],
-        "follow on rate": "null",
+        "follow on rate": null,
         "investment by stage": {
-            "seed": "100%",
-            "early": "0%",
-            "growth": "0%"
-        }
+            "seed": "90%",
+            "early": "5%",
+            "growth": "5%"
+        },
+        "market value": "10M$"
     },
     "Sola View Investments I - Med Tech": {
         "company name": "Sola View Investments I - Med Tech",
@@ -2924,17 +3082,18 @@
         "dealsflow": "New",
         "region": "USA",
         "creation date": "Present",
-        "description": "Sola View Investments I - Med Tech is a new investment firm focusing on the Med Tech industry.  They are currently in the pre-seed stage and are expected to make investments in innovative medical technology companies.",
+        "description": "Sola View Investments I - Med Tech is a new investment firm focusing on early-stage medical technology companies.  They are likely targeting innovative solutions within the medical device or digital health sectors.",
         "markets": [
-            "Healthtech",
-            "Medical Technology"
+            "MedTech",
+            "Healthtech"
         ],
         "follow on rate": null,
         "investment by stage": {
             "seed": "85%",
             "early": "10%",
             "growth": "5%"
-        }
+        },
+        "market value": "10M$"
     },
     "Stardust Ventures": {
         "company name": "Stardust Ventures",
@@ -2942,18 +3101,20 @@
         "dealsflow": "New",
         "region": "India",
         "creation date": "Present",
-        "description": "Stardust Ventures is a new seed-stage venture capital firm focusing on early-stage investments in Indian startups across various sectors, including technology, healthcare, and consumer goods.",
+        "description": "Stardust Ventures is a new venture capital firm that invests in early-stage startups across various sectors, with a particular focus on the Indian market.  They are likely to concentrate on companies with high-growth potential and innovative solutions.",
         "markets": [
-            "Technology",
-            "Healthcare",
-            "Consumer Goods"
+            "AI",
+            "SaaS",
+            "Fintech",
+            "Healthtech"
         ],
         "follow on rate": "20%",
         "investment by stage": {
             "seed": "75%",
             "early": "20%",
             "growth": "5%"
-        }
+        },
+        "market value": "50M$"
     },
     "Model Ventures": {
         "company name": "Model Ventures",
@@ -2961,18 +3122,19 @@
         "dealsflow": "New",
         "region": "USA",
         "creation date": "Present",
-        "description": "Model Ventures is a seed-stage venture capital firm focusing on early-stage investments in technology companies.  They are known for their expertise in identifying promising startups with high-growth potential across various sectors.",
+        "description": "Model Ventures is a new venture capital firm focusing on seed-stage investments.  They are likely concentrating on  high-growth potential companies in the technology sector.",
         "markets": [
             "AI",
             "SaaS",
             "Fintech"
         ],
-        "follow on rate": "20%",
+        "follow on rate": "null",
         "investment by stage": {
-            "seed": "75%",
-            "early": "20%",
-            "growth": "5%"
-        }
+            "seed": "90%",
+            "early": "10%",
+            "growth": "0%"
+        },
+        "market value": "10M$"
     },
     "Jessie Wu": {
         "company name": "Jessie Wu",
@@ -2980,16 +3142,17 @@
         "dealsflow": "New",
         "region": "USA",
         "creation date": "Present",
-        "description": "Jessie Wu is a new venture focusing on early-stage investments, likely in the technology sector given the current trends.  More information is needed to provide a more detailed description.",
+        "description": "Jessie Wu is a new venture capital firm focusing on pre-seed investments, likely in the technology sector given the current market trends.  More information is needed to specify their exact focus.",
         "markets": [
             "Technology"
         ],
         "follow on rate": null,
         "investment by stage": {
-            "seed": "90%",
+            "seed": "85%",
             "early": "10%",
-            "growth": "0%"
-        }
+            "growth": "5%"
+        },
+        "market value": "5M$"
     },
     "BuildTech": {
         "company name": "BuildTech",
@@ -2997,16 +3160,17 @@
         "dealsflow": "New",
         "region": "USA",
         "creation date": "Present",
-        "description": "BuildTech is a seed-stage company focused on building innovative technology solutions.  Further information is needed to provide a more detailed description.",
+        "description": "BuildTech is a new seed-stage venture capital firm focusing on construction technology and proptech companies.  They are likely investing in early-stage startups with high-growth potential in the construction and real estate sectors.",
         "markets": [
-            "SaaS",
-            "Fintech"
+            "Construction Technology",
+            "PropTech"
         ],
-        "follow on rate": "0%",
+        "follow on rate": null,
         "investment by stage": {
-            "seed": "100%",
-            "early": "0%",
-            "growth": "0%"
-        }
+            "seed": "90%",
+            "early": "5%",
+            "growth": "5%"
+        },
+        "market value": "10M$"
     }
 }
