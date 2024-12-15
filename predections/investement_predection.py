@@ -11,33 +11,35 @@ def load_and_preprocess_data(file_path):
     df = pd.read_csv(file_path)
 
     # Ensure required columns are present
-    required_columns = ["Company", "Stage", "Dealflow", "Region", "Markets", "Production Description",
-                        "Creation Date", "Number of Deals (12months)", "Follow-On rate", "Growth rate", "Market Worth"]
+    required_columns = ["Company", "Stage", "Dealflow", "region", "creation date", "description", "markets", "follow on rate", "market value"]
     assert all(
         col in df.columns for col in required_columns), "Missing required columns in the dataset!"
 
     # Data Preprocessing
-    df_cleaned = df.drop(columns=["Production Description"])
+    df_cleaned = df.drop(columns=["description"])
 
     # Extract year from 'Creation Date' and convert it to age of the startup
-    df_cleaned['Creation Date'] = pd.to_datetime(
-        df_cleaned['Creation Date'], format='%m-%Y', errors='coerce')
-    df_cleaned['Startup Age'] = pd.to_datetime('today') - df_cleaned['Creation Date']
+    df_cleaned['creation date'] = pd.to_datetime(
+        df_cleaned['creation date'], format='%m-%Y', errors='coerce')
+    df_cleaned['Startup Age'] = pd.to_datetime('today') - df_cleaned['creation date']
     # Convert to years
     df_cleaned['Startup Age'] = df_cleaned['Startup Age'].dt.days // 365
-    df_cleaned.drop(columns=['Creation Date'], inplace=True)
+    df_cleaned.drop(columns=['creation date'], inplace=True)
 
     # Encode categorical variables using One-Hot Encoding
-    categorical_columns = ["Stage", "Dealflow", "Region", "Markets"]
+    categorical_columns = ["Stage", "Dealflow", "region", "markets"]
     df_encoded = pd.get_dummies(
         df_cleaned, columns=categorical_columns, drop_first=True)
+
+    if "follow on rate" in df_cleaned.columns:
+        df_cleaned['follow on rate'] = df_cleaned['follow on rate'].str.rstrip('%').astype(float) / 100
 
     # Handle any remaining NaN values
     df_encoded.fillna(0, inplace=True)
 
     # Prepare features (X) and target (y)
-    X = df_encoded.drop(columns=["Market Worth", "Company"])
-    y = df_encoded["Market Worth"]
+    X = df_encoded.drop(columns=["market value", "Company"])
+    y = df_encoded["market value"]
 
     # Scale numerical features
     numerical_columns = X.select_dtypes(include=["int64", "float64"]).columns
@@ -121,5 +123,5 @@ def main(file_path):
         print(f"Error during main execution: {e}")
 
 # Run the main function
-file_path = "Fillrandom/startup_data_enriched.csv"
+file_path = r"C:\Users\Fatma\projet-python\Predicting-Profitable-Startups\data_pre-processing\cleaned_data.csv"
 main(file_path)
