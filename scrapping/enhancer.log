@@ -1,0 +1,35 @@
+2024-12-15 08:27:43,363 - INFO - Processing company: Flight.VC Syndicate
+2024-12-15 08:27:45,213 - WARNING - Attempt 1 failed: 'NonStreamedChatResponse' object has no attribute 'generations'
+2024-12-15 08:27:46,826 - WARNING - Attempt 2 failed: 'NonStreamedChatResponse' object has no attribute 'generations'
+2024-12-15 08:27:49,446 - WARNING - Attempt 3 failed: 'NonStreamedChatResponse' object has no attribute 'generations'
+2024-12-15 08:33:55,385 - INFO - Processing company: Flight.VC Syndicate
+2024-12-15 08:33:56,615 - ERROR - Error processing field 'Region' for company 'Flight.VC Syndicate': 'str' object cannot be interpreted as an integer
+2024-12-15 09:04:37,010 - INFO - Processing company: Flight.VC Syndicate
+2024-12-15 09:06:58,135 - WARNING - Attempt 1 failed: Server disconnected without sending a response.
+2024-12-15 09:07:47,992 - INFO - Processing company: MyAsiaVC
+2024-12-15 09:10:41,763 - INFO - Processing company: Rob Ness
+2024-12-15 09:13:19,791 - INFO - Processing company: Unpopular Ventures
+2024-12-15 09:16:11,581 - INFO - Processing company: Mana Ventures
+2024-12-15 09:18:46,945 - INFO - Processing company: Riverside Ventures
+2024-12-15 09:21:25,004 - INFO - Processing company: Zachary Ginsburg || Calm Ventures' Syndicate
+2024-12-15 09:24:07,543 - INFO - Processing company: Better Capital
+2024-12-15 09:26:49,355 - INFO - Processing company: Unwritten Capital
+2024-12-15 09:29:20,897 - INFO - Processing company: SCVC
+2024-12-15 09:31:59,717 - INFO - Processing company: Gold Dragon Ventures
+2024-12-15 09:34:36,824 - INFO - Processing company: Climate Capital
+2024-12-15 09:37:15,060 - INFO - Processing company: DVC
+2024-12-15 09:39:54,924 - INFO - Processing company: SuperAngel.Fund
+2024-12-15 09:45:39,752 - WARNING - Attempt 1 failed: The read operation timed out
+2024-12-15 09:47:38,919 - INFO - Processing company: Austin Walker || Rhone VC
+2024-12-15 09:50:19,836 - INFO - Processing company: Reinforced Ventures
+2024-12-15 09:52:55,614 - INFO - Processing company: Red Beard Ventures
+2024-12-15 09:55:45,168 - INFO - Processing company: Allied Venture Partners
+2024-12-15 09:58:25,993 - INFO - Processing company: Palumni VC
+2024-12-15 10:01:02,222 - INFO - Processing company: Exitfund Ventures
+2024-12-15 10:03:40,570 - INFO - Processing company: Middle Cove Capital
+2024-12-15 10:10:41,541 - WARNING - Attempt 1 failed: The read operation timed out
+2024-12-15 10:11:33,184 - INFO - Processing company: Umami Capital
+2024-12-15 10:17:59,861 - WARNING - Attempt 1 failed: The read operation timed out
+2024-12-15 10:19:09,377 - INFO - Processing company: Ventioneers
+2024-12-15 10:21:47,978 - INFO - Processing company: Climate Capital Syndicate
+2024-12-15 10:24:21,314 - INFO - Processing company: Cool Climate Collective
