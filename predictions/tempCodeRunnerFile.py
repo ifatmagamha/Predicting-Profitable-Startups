@@ -13,7 +13,7 @@ class StartupInvestmentPredictor:
         self.X = None
         self.y = None
         self.models = {
-            "Lasso Regression": Lasso(alpha=0.1),
+            "Lasso Regression": Lasso(alpha=0.1),# worked better then KNN and Random forest in our data
             "Linear Regression": LinearRegression(),
             "SVR": SVR(kernel='linear')
         }
@@ -56,6 +56,9 @@ class StartupInvestmentPredictor:
         # Convert market value to numeric, assuming values in millions
         df_cleaned['market value'] = pd.to_numeric(
             df_cleaned['market value'], errors='coerce')
+        # If the values are in 'M$', multiply by 1 million
+        df_cleaned.loc[df_cleaned['market value'].isna(
+        ), 'market value'] = df_cleaned.loc[df_cleaned['market value'].isna(), 'market value'] * 1e6
 
         # Encode categorical variables using One-Hot Encoding
         categorical_columns = ["Stage", "Dealflow", "region", "markets"]
@@ -134,7 +137,7 @@ class StartupInvestmentPredictor:
             df_test_results['Actual Market Worth'] = y_test
 
             # Store the predictions in the DataFrame
-            df_test_results['Predicted Market Worth (Lasso Regression)'] = self.predictions["Lasso Regression"]
+            df_test_results['Predicted Market Worth (Lasso)'] = self.predictions["Lasso Regression"]
             df_test_results['Predicted Market Worth (Linear Regression)'] = self.predictions["Linear Regression"]
             df_test_results['Predicted Market Worth (SVR)'] = self.predictions["SVR"]
 
