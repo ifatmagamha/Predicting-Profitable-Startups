@@ -60,15 +60,8 @@ class HomepageScraper:
 
 # Main Execution
 if __name__ == "__main__":
-<<<<<<< Updated upstream:Home page script/scrapp_the_homepage.py
     URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
     DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe"
-=======
-    DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe"
-    URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
-    # URL = "https://venture.angellist.com/v/gamha-islem-fatma/i/gamha-islem-fatma/syndicates/all"
-    # DRIVER_PATH = r"C:\Users\Fatma\Downloads\edgedriver_win64\msedgedriver.exe"
->>>>>>> Stashed changes:scrapping/Home page script/scrapp_the_homepage.py
 
     scraper = HomepageScraper(DRIVER_PATH, URL)
 

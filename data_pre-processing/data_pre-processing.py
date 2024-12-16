@@ -84,7 +84,7 @@ class PreProcessor:
 # Example usage
 if __name__ == "__main__":
 
-    initial_csv_path = r"C:\Users\Ramy\OneDrive\Documents\investment project python\Predicting-Profitable-Startups\scrapping\scraped_data.csv"#C:\Users\Fatma\projet-python\Predicting-Profitable-Startups\scrapping\scraped_data.csv"
+    initial_csv_path = r"C:\Users\Ramy\OneDrive\Documents\investment project python\Predicting-Profitable-Startups\scraped_data.csv"#C:\Users\Fatma\projet-python\Predicting-Profitable-Startups\scrapping\scraped_data.csv"
     enriched_json_path = r"C:\Users\Ramy\OneDrive\Documents\investment project python\Predicting-Profitable-Startups\scrapping\enhanced_data.json"  #"C:\\Users\\Fatma\\projet-python\\Predicting-Profitable-Startups\\scrapping\\enhanced_data.json"
     output_csv_path = r"C:\Users\Ramy\OneDrive\Documents\investment project python\Predicting-Profitable-Startups\data_pre-processing\complete_data.csv" #C:\\Users\\Fatma\\projet-python\\Predicting-Profitable-Startups\\data_pre-processing\\complete_data.csv"
 

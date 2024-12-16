@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import csv
 import time
 
+
 class StartupScraper:
     def __init__(self, driver_path, url):
         self.driver_path = driver_path
@@ -21,19 +22,21 @@ class StartupScraper:
         """Wait for the user to complete the login process."""
         print("Please complete the login process manually.")
         try:
-            WebDriverWait(self.driver, 300).until(EC.url_contains("syndicates/all"))
+            WebDriverWait(self.driver, 300).until(
+                EC.url_contains("syndicates/all"))
             print("Login detected, proceeding to scrape data...")
         except Exception as e:
             print("Timeout while waiting for login. Please try again.")
             raise e
-        
+
     def click_load_more(self):
         """Click the 'Load More' button until no longer available."""
         while True:
             try:
                 # Wait for the 'Load More' button to be clickable
                 load_more_button = WebDriverWait(self.driver, 10).until(
-                    EC.element_to_be_clickable((By.CLASS_NAME, "styles_loadMoreButton__PXBu3"))
+                    EC.element_to_be_clickable(
+                        (By.CLASS_NAME, "styles_loadMoreButton__PXBu3"))
                 )
                 print("Clicking 'Load More' button...")
                 load_more_button.click()
@@ -49,10 +52,11 @@ class StartupScraper:
         try:
             links = []
             processed_indexes = set()  # Pour suivre les éléments déjà traités
-        
+
             while True:
                 # Relocaliser les éléments à chaque itération
-                clickable_elements = self.driver.find_elements(By.CLASS_NAME, "styles_rowWrapper__PlI54.styles_clickable__hM_tW")
+                clickable_elements = self.driver.find_elements(
+                    By.CLASS_NAME, "styles_rowWrapper__PlI54.styles_clickable__hM_tW")
                 print(f"Found {len(clickable_elements)} clickable elements.")
 
                 for idx, elem in enumerate(clickable_elements):
@@ -61,21 +65,27 @@ class StartupScraper:
                         continue
 
                     try:
-                        print(f"Processing element {idx + 1}/{len(clickable_elements)}")
+                        print(
+                            f"Processing element {idx + 1}/{len(clickable_elements)}")
                         # Faire défiler jusqu'à l'élément
-                        self.driver.execute_script("arguments[0].scrollIntoView();", elem)
-                        self.driver.execute_script("arguments[0].click();", elem)  # Cliquer via JavaScript
+                        self.driver.execute_script(
+                            "arguments[0].scrollIntoView();", elem)
+                        # Cliquer via JavaScript
+                        self.driver.execute_script(
+                            "arguments[0].click();", elem)
                         time.sleep(5)  # Attendre le chargement de la page
 
                         # Extraire le lien
                         try:
-                            new_link = self.driver.find_element(By.CLASS_NAME, "styles_unstyled__MSx94").get_attribute('href')
+                            new_link = self.driver.find_element(
+                                By.CLASS_NAME, "styles_unstyled__MSx94").get_attribute('href')
                             links.append(new_link)
                             print(f"Found link: {new_link}")
                         except Exception as e:
                             print(f"Error extracting data: {e}")
-                    
-                        processed_indexes.add(idx)  # Marquer cet élément comme traité
+
+                        # Marquer cet élément comme traité
+                        processed_indexes.add(idx)
                     except Exception as e:
                         print(f"Error clicking element {idx + 1}: {e}")
 
@@ -86,7 +96,7 @@ class StartupScraper:
                     except Exception as e:
                         print(f"Error navigating back: {e}")
                         return links  # Retourner les liens collectés jusqu'à présent
-            
+
                 # Vérifier s'il reste des éléments non traités
                 if len(processed_indexes) >= len(clickable_elements):
                     break
@@ -96,12 +106,7 @@ class StartupScraper:
             print(f"Error during scraping: {e}")
             return []
 
-
-<<<<<<< Updated upstream:Home page script/scrapp_company_links.py
-    def save_to_csv(self, data, filename="company_links2.csv"):
-=======
     def save_to_csv(self, data, filename="company_linksRL.csv"):
->>>>>>> Stashed changes:scrapping/Home page script/scrapp_company_links.py
         with open(filename, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             writer.writerow(["Link"])
@@ -114,16 +119,9 @@ class StartupScraper:
 
 # Main execution
 if __name__ == "__main__":
-<<<<<<< Updated upstream:Home page script/scrapp_company_links.py
     URL ="https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all" 
     #"https://venture.angellist.com/v/gamha-islem-fatma/i/gamha-islem-fatma/syndicates/all"
     DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe"
-=======
-    DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe"
-    URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
-    # URL = "https://venture.angellist.com/v/gamha-islem-fatma/i/gamha-islem-fatma/syndicates/all"
-    # DRIVER_PATH = r"C:\Users\Fatma\Downloads\edgedriver_win64\msedgedriver.exe"
->>>>>>> Stashed changes:scrapping/Home page script/scrapp_company_links.py
 
     scraper = StartupScraper(DRIVER_PATH, URL)
     try:
