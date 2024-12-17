@@ -5,123 +5,114 @@ from sklearn.linear_model import LinearRegression
 from sklearn.svm import SVR
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.impute import SimpleImputer
 
-def load_and_preprocess_data(file_path):
-    # Load the dataset
-    df = pd.read_csv(file_path)
+class StartupInvestmentPredictor:
+    def __init__(self, file_path):
+        self.file_path = file_path
+        self.df = None
+        self.X = None
+        self.y = None
+        self.models = {
+            "Random Forest": RandomForestRegressor(n_estimators=100, random_state=42),
+            "Linear Regression": LinearRegression(),
+            "SVR": SVR(kernel='linear')
+        }
+        self.predictions = {}
+        self.model_performance = {}
 
-    # Ensure required columns are present
-    required_columns = ["Company", "Stage", "Dealflow", "region", "creation date", "description", "markets", "follow on rate", "market value"]
-    assert all(
-        col in df.columns for col in required_columns), "Missing required columns in the dataset!"
-
-    # Data Preprocessing
-    df_cleaned = df.drop(columns=["description"])
-
-    # Extract year from 'Creation Date' and convert it to age of the startup
-    df_cleaned['creation date'] = pd.to_datetime(
-        df_cleaned['creation date'], format='%m-%Y', errors='coerce')
-    df_cleaned['Startup Age'] = pd.to_datetime('today') - df_cleaned['creation date']
-    # Convert to years
-    df_cleaned['Startup Age'] = df_cleaned['Startup Age'].dt.days // 365
-    df_cleaned.drop(columns=['creation date'], inplace=True)
-
-    # Encode categorical variables using One-Hot Encoding
-    categorical_columns = ["Stage", "Dealflow", "region", "markets"]
-    df_encoded = pd.get_dummies(
-        df_cleaned, columns=categorical_columns, drop_first=True)
-
-    if "follow on rate" in df_cleaned.columns:
-        df_cleaned['follow on rate'] = df_cleaned['follow on rate'].str.rstrip('%').astype(float) / 100
-
-    # Handle any remaining NaN values
-    df_encoded.fillna(0, inplace=True)
-
-    # Prepare features (X) and target (y)
-    X = df_encoded.drop(columns=["market value", "Company"])
-    y = df_encoded["market value"]
-
-    # Scale numerical features
-    numerical_columns = X.select_dtypes(include=["int64", "float64"]).columns
-    scaler = StandardScaler()
-    X[numerical_columns] = scaler.fit_transform(X[numerical_columns])
-
-    return df, X, y
-
-def train_models(X_train, y_train, X_test, y_test):
-    models = {
-        "Random Forest": RandomForestRegressor(n_estimators=100, random_state=42),
-        "Linear Regression": LinearRegression(),
-        "SVR": SVR(kernel='linear')
-    }
-    
-    predictions = {
-        "Random Forest": None,
-        "Linear Regression": None,
-        "SVR": None
-    }
-    
-    model_performance = {}
-
-    for model_name, model in models.items():
+    def load_and_preprocess_data(self):
         try:
-            model.fit(X_train, y_train)
-            y_pred = model.predict(X_test)
-            predictions[model_name] = y_pred
+            # Load the dataset
+            self.df = pd.read_csv(self.file_path, encoding="utf-8-sig")
+            print("Data loaded and preprocessed successfully.")
 
-            mse = mean_squared_error(y_test, y_pred)
-            r2 = r2_score(y_test, y_pred)
-            model_performance[model_name] = {"MSE": mse, "R2": r2}
+            # Ensure 'market value' is the target
+            if "market value" not in self.df.columns:
+                raise ValueError("Target column 'market value' is missing!")
+
+            # Select features (drop target and non-numerical columns if any)
+            self.X = self.df.drop(columns=["market value", "Company"], errors='ignore')
+
+            # Ensure only numerical columns
+            self.X = self.X.select_dtypes(include=["float64", "int64"])
+
+            # Handle missing values with imputer
+            imputer = SimpleImputer(strategy='mean')
+            self.X = pd.DataFrame(imputer.fit_transform(self.X), columns=self.X.columns)
+
+            # Define target variable
+            self.y = self.df["market value"]
+
+            # Standardize numerical features
+            scaler = StandardScaler()
+            self.X = pd.DataFrame(scaler.fit_transform(self.X), columns=self.X.columns)
+
         except Exception as e:
-            print(f"Error during {model_name} training or prediction: {e}")
-            model_performance[model_name] = {"MSE": None, "R2": None}
+            print(f"Error during data preprocessing: {e}")
 
-    return model_performance, predictions
+    def train_models(self):
+        try:
+            X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size=0.2, random_state=42)
 
-def display_top_and_bottom_predictions(df_test_results, model_name, predicted_column):
-    df_test_results_sorted = df_test_results.sort_values(by=predicted_column, ascending=False)
+            # Create a dictionary to store predictions
+            for model_name, model in self.models.items():
+                model.fit(X_train, y_train)
+                y_pred = model.predict(X_test)
 
-    # Display top predicted startups
-    print(f"\nTop 10 Startups to Invest in based on {model_name} Predictions:")
-    print(df_test_results_sorted[['Company', predicted_column]].head(10))
+                mse = mean_squared_error(y_test, y_pred)
+                r2 = r2_score(y_test, y_pred)
 
-    # Display bottom predicted startups
-    print(f"\nBottom 10 Startups to Avoid based on {model_name} Predictions:")
-    print(df_test_results_sorted[['Company', predicted_column]].tail(10))
-    
-    # Save the sorted predictions to CSV
-    df_test_results_sorted.to_csv("startup_predictions_sorted.csv", index=False)
+                # Store predictions and performance metrics
+                self.predictions[model_name] = y_pred
+                self.model_performance[model_name] = {"MSE": mse, "R2": r2}
+                print(f"{model_name} - MSE: {mse:.2f}, R2: {r2:.2f}")
 
-def main(file_path):
-    try:
-        # Load and preprocess data
-        df, X, y = load_and_preprocess_data(file_path)
+            # Call display method after model training
+            self.display_top_and_bottom_predictions(X_test, y_test)
 
-        # Split the data into training and testing sets
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        except Exception as e:
+            print(f"Error during model training: {e}")
 
-        # Train models and get predictions
-        model_performance, predictions = train_models(X_train, y_train, X_test, y_test)
+    def display_top_and_bottom_predictions(self, X_test, y_test):
+        try:
+            # Combine predictions with company names for display
+            df_test_results = X_test.copy()
+            df_test_results['Company'] = self.df.iloc[X_test.index]['Company'].values
+            df_test_results['Actual Market Worth'] = y_test
 
-        # Combine predictions with company names for display
-        df_test_results = X_test.copy()
-        df_test_results['Company'] = df.iloc[X_test.index]['Company'].values
-        df_test_results['Actual Market Worth'] = y_test
+            # Store the predictions for each model
+            for model_name, y_pred in self.predictions.items():
+                df_test_results[f'Predicted Market Worth ({model_name})'] = y_pred
 
-        # Store the predictions in the DataFrame
-        df_test_results['Predicted Market Worth (Random Forest)'] = predictions["Random Forest"]
-        df_test_results['Predicted Market Worth (Linear Regression)'] = predictions["Linear Regression"]
-        df_test_results['Predicted Market Worth (SVR)'] = predictions["SVR"]
+            # Sort by predicted market value and save for each model
+            for model_name in self.models.keys():
+                predicted_column = f'Predicted Market Worth ({model_name})'
+                df_test_results_sorted = df_test_results.sort_values(by=predicted_column, ascending=False)
 
-        # Display the top and bottom predictions for each model
-        for model_name in model_performance:
-            display_top_and_bottom_predictions(
-                df_test_results, model_name, f'Predicted Market Worth ({model_name})')
+                # Save results to CSV
+                self.save_csv(df_test_results_sorted, model_name)
 
-        print("Predictions saved to 'startup_predictions_sorted.csv'.")
-    except Exception as e:
-        print(f"Error during main execution: {e}")
+        except Exception as e:
+            print(f"Error during displaying top/bottom predictions: {e}")
 
-# Run the main function
-file_path = r"C:\Users\Fatma\projet-python\Predicting-Profitable-Startups\data_pre-processing\cleaned_data.csv"
-main(file_path)
+    def save_csv(self, df_test_results_sorted, model_name):
+        try:
+            # Save sorted predictions for each model in a separate file
+            output_directory = r"C:\Users\Fatma\projet-python\Predicting-Profitable-Startups\predections"  # Remplacez ce chemin par le vôtre
+            output_file_path = f"{output_directory}\\startup_predictions_sorted_{model_name.replace(' ', '_')}.csv"
+            print(f"Saving sorted predictions for {model_name} to {output_file_path}...")
+            df_test_results_sorted.to_csv(output_file_path, index=False, encoding='utf-8-sig')
+            print(f"Predictions for {model_name} saved to {output_file_path}.")
+        except Exception as e:
+            print(f"Error during saving CSV: {e}")
+
+    def run(self):
+        self.load_and_preprocess_data()
+        self.train_models()
+
+
+if __name__ == "__main__":
+    file_path = r"C:\Users\Fatma\projet-python\Predicting-Profitable-Startups\data_pre-processing\processed_textual-data_TF-IDF.csv"
+    predictor = StartupInvestmentPredictor(file_path)
+    predictor.run()
