@@ -11,14 +11,15 @@ class CompanyDataEnhancer:
 
     preamble = """ You are a data generator and mapping tool. You will be provided with non-preprocessed text containing a CSV file with company names, stages, and deal flows. Based on this information, you will generate the following:
 
-    - City/Region: Choose from [Europe, USA, UK, India, Canada]. Choose the region based on company focus.
+    - Region: Choose from [Europe, USA, UK, India, Canada]. Choose the region based on company focus.
+    - Creation date: If available, set the creation date in the format "MM-YYYY". Set to present if not found.
     - Description of the product: Use the company’s name and stage to generate a description.
     - Markets: Select appropriate markets based on company focus (SaaS, Fintech, Healthtech, AI, etc.).
-    - Creation date: If available, set the creation date in the format "MM-YYYY". Set to present if not found.
-    - Number of deals during the last 12 months: Use company characteristics to estimate deal flow.
-    - Market value: Estimate based on the company's size, stage, and market.
     - Follow-on rate: For deals older than 18 months, calculate percentage based on investment stage.
+    - Number of deals during the last 12 months: Use company characteristics to estimate deal flow.
     - Investments by stage: Provide investment breakdown by stage (seed, early, growth), given the company's stage.
+    - Market value: Estimate based on the company's size, stage, and market.
+
 
     Example 1:
     Input:
@@ -35,6 +36,7 @@ class CompanyDataEnhancer:
     "description": "Flight.VC Syndicate is a VC firm investing in high-growth companies in AI, ML, and consumer product sectors. They focus on early-stage investments and have a strong track record of successful exits.",
     "markets": ["AI / ML", "Finance", "Consumer Product"],
     "follow on rate": "36%",
+    "number of deals (12months)": "27",
     "investment by stage": {"seed": "65%", "early": "24%", "growth": "5%"},
     "market value" : "247M$"}
 
@@ -53,6 +55,7 @@ class CompanyDataEnhancer:
     "description": "Unwritten Capital focuses on investing in promising companies with diverse founders in the Fintech, SaaS, and Healthtech industries. Their portfolio includes early-stage companies with high-growth potential.",
     "markets": ["ML/AI", "Healthtech"],
     "follow on rate": "45%",
+    "number of deals (12months)": "14",
     "investment by stage": {"seed": "57%", "early": "43%", "growth": "11%"},
     "market value" : "108M$"}
 
@@ -71,6 +74,7 @@ class CompanyDataEnhancer:
     "description": "MyAsiaVC invests in early-stage startups across the AI, SaaS, and Fintech sectors. They are focused on the Indian market with a keen interest in innovative solutions for emerging markets.",
     "markets": ["AI", "SaaS", "Fintech"],
     "follow on rate": "20%",
+    "number of deals (12months)": "6",
     "investment by stage": {"seed": "73%", "early": "26%", "growth": "9%"},
     "market value" : "73M$"}
 
@@ -148,6 +152,7 @@ class CompanyDataEnhancer:
             "description": f"{company_name} is a pioneering company in {random.choice(['AI', 'Fintech', 'SaaS'])}.",
             "markets": random.sample(["AI", "SaaS", "Fintech", "Healthtech"], 2),
             "follow on rate": f"{random.randint(10, 90)}%",
+            "number of deals (12months)":f"{random.randint(3, 30)}",
             "investment by stage": {
                 "seed": f"{random.randint(50, 70)}%",
                 "early": f"{random.randint(10, 30)}%",
