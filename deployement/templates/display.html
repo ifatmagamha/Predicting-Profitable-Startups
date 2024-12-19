@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Predictions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='newlook.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Startup Market Worth Predictions</h1>
+    </header>
+    <div class="container">
+        <h2>Model Performance</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Mean Squared Error (MSE)</th>
+                    <th>R² Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for model, performance in results.items() %}
+                <tr>
+                    <td>{{ model }}</td>
+                    <td>{{ performance['MSE'] | round(2) }}</td>
+                    <td>{{ performance['R2'] | round(2) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h2>Startup Rankings Based on Predicted Market Worth</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Actual Market Worth</th>
+                    <th>Predicted Market Worth ({{ best_model_name }})</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in df_test_results %}
+                <tr>
+                    <td>{{ row['Company'] }}</td>
+                    <td>{{ row['Actual Market Worth'] }}</td>
+                    <td>{{ row['Predicted Market Worth (' + best_model_name + ')'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="note">
+            Note: Predictions are based on the {{ best_model_name }} model with the best R² score.
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Startup Prediction Tool. All rights reserved.
+    </footer>
+</body>
+</html>
