@@ -1,6 +1,7 @@
 Company,Stage,Dealflow
 Flight.VC Syndicate,Seed,High
 MyAsiaVC,Seed,High
+New Stack Ventures,Seed,High
 Rob Ness,Seed,High
 Unpopular Ventures,Seed,High
 Mana Ventures,Seed,High
@@ -19,7 +20,6 @@ Red Beard Ventures,Seed,High
 Allied Venture Partners,Seed,High
 Palumni VC,Seed,High
 Exitfund Ventures,Seed,High
-Middle Cove Capital,Seed+,High
 Umami Capital,Seed,High
 Ventioneers,Other,High
 Climate Capital Syndicate,Seed,High
@@ -33,130 +33,131 @@ Jolt VC,Seed,High
 2022 Ventures - Top Tier Early Stage Deals,Seed+,High
 Fundomo,Series A,High
 Builders Capital,Seed,High
+Duro Ventures,Seed,Medium
+Zach Coelius,Medium,Medium
 Wild Ventures,Seed,Medium
 Suman Talukdar,Medium,Medium
 Good News Ventures,Seed,Medium
-Recursive Syndicate,Medium,Medium
-Companyon Ventures,Seed,Medium
+Necessary Ventures,Medium,Medium
+Recursive Syndicate,Seed,Medium
+Companyon Ventures,Medium,Medium
+SaaSholic,Seed,Medium
 Founders First,Medium,Medium
-Everywhere Ventures,Seed,Medium
-Matt Slater (Stateless Ventures),Medium,Medium
-WV,Seed+,Medium
-Harpoon Ventures,Medium,Medium
-Darkmode Ventures,Seed,Medium
+Everywhere Ventures,Series A,Medium
+Nathan Doctor,Medium,Medium
+Matt Slater (Stateless Ventures),Seed,Medium
+WV,Medium,Medium
+Darkmode Ventures,Seed+,Medium
 Chaos Ventures,Medium,Medium
 Ride Wave Ventures,Seed,Medium
 Socially Financed,Medium,Medium
 Spacecadet,Seed,Medium
 Rief Ventures,Medium,Medium
 5 Eyes Ventures,Seed,Medium
-Xtripe Angels,Medium,Medium
-Banana Capital,Series D,Medium
-Shelter Island Ventures,Medium,Medium
-MKT1 Capital,Seed,Medium
+Banana Capital,Medium,Medium
+Shelter Island Ventures,Seed,Medium
+MKT1 Capital,Medium,Medium
+Altairian Collective,Seed,Medium
 Munch.VC,Medium,Medium
 Lightning ⚡️ Ventures,Seed,Medium
 HF Scale,Medium,Medium
-Australian Gulf Capital,Seed,Medium
-Focalpoint Partners,Medium,Medium
-Mr. Wizard Ventures from Daniel Kagan,Seed,Medium
+Focalpoint Partners,Seed,Medium
+Mr. Wizard Ventures from Daniel Kagan,Medium,Medium
+Dream Big Angels,Seed,Medium
 DataPower Ventures,Medium,Medium
 The Executive Venture Syndicate,Seed,Medium
 Iaso Ventures,Medium,Medium
-Shane Feldberg,Seed,Medium
+Shane Feldberg (feld ventures),Seed,Medium
 Caravan Health Ventures,Medium,Medium
-Juniper,Seed+,Medium
+Juniper,Seed,Medium
 JourneyOne Ventures,Medium,Medium
 The Healthcare Syndicate,Seed,Medium
 Giant Step Capital,Medium,Medium
-The Syndicate by BANA,Seed,Medium
+The Syndicate by BANA,Seed+,Medium
 SHORVC,Medium,Medium
 Rendered VC,Seed,Medium
 Studio Management,Medium,Medium
 The Pitch,Seed,Medium
 Tenon Ventures,Medium,Medium
-PaperJet Ventures,Seed+,Medium
+PaperJet Ventures,Seed,Medium
 Untapped Ventures,Medium,Medium
-271.vc,Seed,Medium
-Banyan,Medium,Medium
-Seneca,Other,Medium
+271.vc,Pre-Seed,Medium
 Allen Bryant,Medium,Medium
-Brinc,Seed,Medium
+Brinc,Seed+,Medium
 Katha VC // Sahith Aula,Medium,Medium
 Beyond Earth Technologies,Seed,Medium
-Cobble Hill Ventures,Medium,Medium
-Duro Ventures,Series B,Low
+Loyalty Ventures,Medium,Medium
+Cobble Hill Ventures,Other,Medium
+xxi,Medium,Medium
+Shruti Gandhi,Seed,Low
 Barney Pell,Medium,Low
-Capital Factory,Seed,Low
+Capital Factory,Series B,Low
 Inovexus Ventures,Medium,Low
-500 Global,Seed+,Low
-Nelstone Ventures,Medium,Low
-undefined Syndicate,Pre-Seed,Low
-Pete Soderling,Medium,Low
-Jake Seid,Pre-Seed,Low
-N49P,Medium,Low
-Ankur Nagpal,Seed,Low
-PIRQUE ΔHEΔD,Medium,Low
-Fractal Venture Investments,Pre-Seed,Low
-SaaSholic,Medium,Low
-Wuri Ventures,Series A,Low
+500 Global,Seed,Low
+Ravi Belani,Medium,Low
+Nelstone Ventures,Seed,Low
+undefined Syndicate,Medium,Low
+Pete Soderling,Seed+,Low
+Jake Seid,Medium,Low
+N49P,Pre-Seed,Low
+Ankur Nagpal,Medium,Low
+PIRQUE ΔHEΔD,Pre-Seed,Low
+Fractal Venture Investments,Medium,Low
+Wuri Ventures,Seed,Low
 Frontierspace VC,Medium,Low
 The MBA Fund,Pre-Seed,Low
-Benjamin Bryant's Access Fund,Medium,Low
-The Nordic Web,Series A,Low
-P1 Ventures,Medium,Low
-Cabra VC,Pre-Seed,Low
-Inuka Capital,Medium,Low
-"Arka Venture Labs (Fund II) (India-US preseed fund, 38 investmen",Seed,Low
-Amara.VC,Medium,Low
-Not Boring,Series A,Low
-Newlin.vc,Medium,Low
-Kube VC,Pre-Seed,Low
-Prithvi Ventures,Medium,Low
-Evolutionary Ventures,Pre-Seed,Low
-Great Circle Ventures,Medium,Low
-Calculated Leap Ventures,Series A,Low
-Tech Investor Club - Syndicate,Medium,Low
-DayDream Ventures,Seed+,Low
-Ten31 Bitcoin and Freedom Tech Syndicate,Medium,Low
-TDV Partners (US) | Ujwal's Syndicate,Seed+,Low
-Nomad Ventures,Medium,Low
-GoodTech Electric,Seed+,Low
-Network Ventures Syndicate,Medium,Low
-Ayuh Ventures,Seed,Low
+The Nordic Web,Medium,Low
+P1 Ventures,Series A,Low
+Cabra VC,Medium,Low
+Inuka Capital,Pre-Seed,Low
+"Arka Venture Labs (Fund II) (India-US preseed fund, 38 investmen",Medium,Low
+Amara.VC,Series A,Low
+Not Boring,Medium,Low
+Newlin.vc,Pre-Seed,Low
+Kube VC,Medium,Low
+Prithvi Ventures,Seed,Low
+Evolutionary Ventures,Medium,Low
+Great Circle Ventures,Series A,Low
+Calculated Leap Ventures,Medium,Low
+Tech Investor Club - Syndicate,Pre-Seed,Low
+DayDream Ventures,Medium,Low
+Ten31 Bitcoin and Freedom Tech Syndicate,Pre-Seed,Low
+TDV Partners (US) | Ujwal's Syndicate,Medium,Low
+Nomad Ventures,Series A,Low
+GoodTech Electric,Medium,Low
+Ayuh Ventures,Seed+,Low
 Maya Bakhai,Medium,Low
-Atman,Seed,Low
+Atman,Seed+,Low
 Kindergarten Ventures,Medium,Low
-"Textbook Ventures - Founders from Columbia, Cornell, and NYU",Seed+,Low
-Arkstons Capital,Medium,Low
-Sunflower Fund,Series B,Low
-Caisson Capital Ventures,Medium,Low
-Ollie Howie,Seed,Low
+Australian Gulf Capital,Seed+,Low
+"Textbook Ventures - Founders from Columbia, Cornell, and NYU",Medium,Low
+Arkstons Capital,Seed+,Low
+Sunflower Fund,Medium,Low
+Caisson Capital Ventures,Series B,Low
+Ollie Howie,Medium,Low
+This Week in Fintech's Syndicate,Seed,Low
 Potluck Ventures (backing #AAPI founders),Medium,Low
 Mute Ventures,Pre-Seed,Low
 Gonio Ventures,Medium,Low
-Youth Development Fund,Series A,Low
+Youth Development Fund,Pre-Seed,Low
 Tremis Capital US,Medium,Low
-AdValorem Syndicate,Seed,Low
-Rob Hanna / Enduring Ventures,Seed,Low
-Intbox Ventures,Pre-Seed,Low
-TopazProp Ventures,Pre-Seed,Low
-Melzi VC,Seed+,Low
-Majic Capital,Seed+,Low
+AdValorem Syndicate,Series A,Low
+Rob Hanna / Enduring Ventures,Medium,Low
+Intbox Ventures,Series B,Low
+Melzi VC,Medium,Low
+Majic Capital,Seed,Low
 SUM Ventures,Seed,Low
-The Mycelorium,Seed,Low
-Cavallon AI,Seed,Low
-Storied Ventures,Seed,Low
-Sober Capital,Seed,New
-Galactic Ventures,Seed+,New
-Maverick Ventures,Seed,New
-Riceberg Ventures,Seed,New
-Hero's Journey Capital,Pre-Seed,New
+The Mycelorium,Pre-Seed,Low
+Cavallon AI,Pre-Seed,Low
+Storied Ventures,Seed+,Low
+Galactic Ventures,Seed,New
+Maverick Ventures,Seed+,New
+Riceberg Ventures,Pre-Seed,New
+Hero's Journey Capital,Seed,New
 Ikigai Syndicate,Seed,New
 Meandros Ventures,Seed,New
-co/fund,Seed,New
-Sola View Investments I - Med Tech,Pre-Seed,New
-Stardust Ventures,Seed,New
+Sola View Investments I - Med Tech,Seed,New
+Stardust Ventures,Seed+,New
 Model Ventures,Seed,New
 Jessie Wu,Pre-Seed,New
 BuildTech,Seed,New

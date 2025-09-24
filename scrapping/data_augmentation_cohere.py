@@ -174,7 +174,7 @@ if __name__ == "__main__":
         print("Error: API key not found. Please set COHERE_API_KEY in your .env file.")
         sys.exit(1)
 
-    file_path = r"C:\Users\Fatma\projet-python\Predicting-Profitable-Startups\scrapping\scraped_data.csv"
+    file_path = r"C:\Users\Ramy\OneDrive\Documents\investment project python\Predicting-Profitable-Startups\scrapping\scraped_data.csv"
 
     try:
         enhancer = CompanyDataEnhancer(api_key, file_path)

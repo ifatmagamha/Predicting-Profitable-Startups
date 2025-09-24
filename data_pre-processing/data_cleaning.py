@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 
+
 class DataCleaning:
     """
     A class to clean and normalize datasets.
@@ -27,33 +28,40 @@ class DataCleaning:
             pd.DataFrame: The cleaned DataFrame.
         """
 
-        redundant_columns = ['company name', 'stage', 'dealsflow']  # Add any other columns you want to drop
+        # Add any other columns you want to drop
+        redundant_columns = ['company name', 'stage', 'dealsflow']
 
         # Drop the redundant columns
         df = df.drop(columns=redundant_columns)
 
         # Replace 'Present' in 'creation date' with '01-2024'
         if 'creation date' in df.columns:
-            df['creation date'] = df['creation date'].replace('Present', '01-2024')
+            df['creation date'] = df['creation date'].replace(
+                'Present', '01-2024')
 
         # Fill missing values for categorical columns with 'Unknown'
-        categorical_columns = ['company name', 'stage', 'dealsflow', 'region', 'description', 'markets']
+        categorical_columns = ['company name', 'stage',
+                               'dealsflow', 'region', 'description', 'markets']
         for col in categorical_columns:
             if col in df.columns:
                 df[col] = df[col].fillna('Unknown')
 
         # Fill missing values for numeric-like columns with mean
         if 'follow on rate' in df.columns:
-            df['follow on rate'] = df['follow on rate'].str.rstrip('%').astype(float, errors='ignore')
-            df['follow on rate'] = df['follow on rate'].fillna(df['follow on rate'].mean()).astype(str) + '%'
+            df['follow on rate'] = df['follow on rate'].str.rstrip(
+                '%').astype(float, errors='ignore')
+            df['follow on rate'] = df['follow on rate'].fillna(
+                df['follow on rate'].mean()).astype(str) + '%'
 
         return df
 
 
 if __name__ == "__main__":
     # Read the CSV into a DataFrame
-    completedata_csv_path = r"C:\\Users\\Fatma\\projet-python\\Predicting-Profitable-Startups\\data_pre-processing\\complete_data.csv"
-    output_csv_path = r"C:\\Users\\Fatma\\projet-python\\Predicting-Profitable-Startups\\data_pre-processing\\cleaned_data.csv"
+    completedata_csv_path = r"C:\Users\Ramy\OneDrive\Documents\investment project python\Predicting-Profitable-Startups\data_pre-processing\complete_data.csv"
+    output_csv_path = r"C:\Users\Ramy\OneDrive\Documents\investment project python\Predicting-Profitable-Startups\data_pre-processing\cleaned_data.csv"
+    # completedata_csv_path = r"C:\\Users\\Fatma\\projet-python\\Predicting-Profitable-Startups\\data_pre-processing\\complete_data.csv"
+    # output_csv_path = r"C:\\Users\\Fatma\\projet-python\\Predicting-Profitable-Startups\\data_pre-processing\\cleaned_data.csv"
 
     try:
         # Load the CSV file into a DataFrame
