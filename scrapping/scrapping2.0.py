@@ -92,15 +92,10 @@ class StartupScraper:
 
 # Main execution
 if __name__ == "__main__":
-<<<<<<< Updated upstream:scrapping/scrapping2.0.py
     URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
     DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe"
     #URL = "https://venture.angellist.com/v/gamha-islem-fatma/i/gamha-islem-fatma/syndicates/all"
     # DRIVER_PATH = r"C:\Users\Fatma\Downloads\edgedriver_win64\msedgedriver.exe"
-=======
-    DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe"
-    URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
->>>>>>> Stashed changes:scrapping/scrapper.py
 
     scraper = StartupScraper(DRIVER_PATH, URL)
 

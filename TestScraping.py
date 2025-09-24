@@ -1,14 +1,7 @@
-from scrapping.scrapper import StartupScraper
 import unittest
 from unittest.mock import MagicMock, patch
 from scraping import StartupScraper
 
-<<<<<<< Updated upstream:TestScraping.py
-=======
-# Ajoute le chemin racine pour permettre les imports
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
->>>>>>> Stashed changes:testing/test_scrapp.py
 
 class TestStartupScraper(unittest.TestCase):
 
@@ -21,7 +14,7 @@ class TestStartupScraper(unittest.TestCase):
     @patch('scraping.Service')
     def test_setup_driver(self, mock_service, mock_edge):
         """Test the setup_driver method."""
-        mock_driver = MagicMock()  # create a mock object that has the same methods as the original object but with empty implementations
+        mock_driver = MagicMock()# create a mock object that has the same methods as the original object but with empty implementations
         mock_edge.return_value = mock_driver
 
         self.scraper.setup_driver()

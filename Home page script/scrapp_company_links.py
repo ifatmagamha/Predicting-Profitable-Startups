@@ -97,11 +97,7 @@ class StartupScraper:
             return []
 
 
-<<<<<<< Updated upstream:Home page script/scrapp_company_links.py
     def save_to_csv(self, data, filename="company_links2.csv"):
-=======
-    def save_to_csv(self, data, filename="company_linksRL.csv"):
->>>>>>> Stashed changes:scrapping/Home page script/scrapp_company_links.py
         with open(filename, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             writer.writerow(["Link"])
@@ -114,16 +110,9 @@ class StartupScraper:
 
 # Main execution
 if __name__ == "__main__":
-<<<<<<< Updated upstream:Home page script/scrapp_company_links.py
     URL ="https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all" 
     #"https://venture.angellist.com/v/gamha-islem-fatma/i/gamha-islem-fatma/syndicates/all"
     DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe"
-=======
-    DRIVER_PATH = r"C:\Users\Ramy\Downloads\edgedriver_win64\msedgedriver.exe"
-    URL = "https://venture.angellist.com/v/ramy-lazghab/i/ramy-lazghab/syndicates/all"
-    # URL = "https://venture.angellist.com/v/gamha-islem-fatma/i/gamha-islem-fatma/syndicates/all"
-    # DRIVER_PATH = r"C:\Users\Fatma\Downloads\edgedriver_win64\msedgedriver.exe"
->>>>>>> Stashed changes:scrapping/Home page script/scrapp_company_links.py
 
     scraper = StartupScraper(DRIVER_PATH, URL)
     try:
