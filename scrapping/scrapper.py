@@ -101,10 +101,8 @@ if __name__ == "__main__":
         scraper.setup_driver()
         scraper.wait_for_login()
 
-        # Click "Load More" until the end of the list
         scraper.click_load_more()
 
-        # Scrape the data
         data = scraper.scrape_data()
 
         if data:
@@ -113,9 +111,7 @@ if __name__ == "__main__":
             print("STAGES:", len(data["stages"]))
             print("DEALFLOWS:", len(data["dealflows"]))
 
-            # Save the data to a CSV file
             scraper.save_to_csv(data)
             print("Data saved to scraped_data.csv")
     finally:
-        # Close the browser only at the end
         scraper.close_driver()
